@@ -1,6 +1,6 @@
 title: "LIQCS 2026"
 description: "Logic in Quantum Computer Science workshop"
-theme: jekyll-theme-cayman
+theme: jekyll-theme-minimal
 
 markdown: kramdown
 github:
