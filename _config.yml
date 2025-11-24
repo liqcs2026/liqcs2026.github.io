@@ -1,7 +1,14 @@
 title: "LIQCS 2026"
-description: "Logic in Quantum Computer Science workshop"
-theme: jekyll-theme-minimal
+description: "Logic in Quantum Computer Science"
+remote_theme: daattali/beautiful-jekyll
 
-markdown: kramdown
-github:
-  is_project_page: false
+# navbar-links:
+#   Programme: "programme"
+#   Call for Contributions: "cfp"
+#   Organisers: "organisers"
+
+# MathJax 
+mathjax: true
+
+plugins:
+  - jekyll-remote-theme
