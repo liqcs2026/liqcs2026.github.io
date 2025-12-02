@@ -14,7 +14,7 @@ title: LIQCS 2026
 **LIQCS** is a workshop dedicated to the logical and mathematical foundations of
 quantum computer science.  
 Its goal is to bring together researchers working on rigorous frameworks for
-quantum and hybrid quantum–classical computation, including logic, type theory,
+quantum computation, including logic, type theory,
 semantics, algebraic and categorical methods, and formal verification.
 
 The workshop welcomes contributions presenting new ideas, work in progress,
