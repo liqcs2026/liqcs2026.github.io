@@ -27,9 +27,9 @@ recently published results, and perspectives on emerging research directions.
 Topics include, but are not limited to:
 
 - Logical systems for quantum computation  
-- Type theory for quantum programming languages  
+- Type systems for quantum programming languages  
 - Models of quantum computation: lambda calculi, term rewriting systems, process calculi, …  
-- Quantum denotational, operational, and categorical semantics  
+- Denotational, operational, and categorical semantics of languages/logics for quantum computing
 - Realisability, game semantics, and algebraic models for quantum systems  
 - Logics for verification and reasoning about quantum programs and protocols  
 - Formal methods for quantum and hybrid quantum–classical systems  
@@ -60,7 +60,7 @@ LIQCS community.
 
 - Submissions should be in **PDF format**.  
 - Suggested length: **2–5 pages**, excluding references (flexible).  
-- All submissions will undergo lightweight reviewing by the Programme Committee
+- All submissions will be reviewed by the Programme Committee
   for quality and relevance.  
 - A dedicated **EasyChair link** will be provided soon.
 
