@@ -89,10 +89,10 @@ TBA
 
 ## Organisers
 
-- Alejandro Díaz-Caro  
-- Romain Péchoux  
-- Benoît Valiron  
-- Vladimir Zamdzhiev  
+- [Alejandro Díaz-Caro](https://members.loria.fr/ADiazCaro/)
+- [Romain Péchoux](https://members.loria.fr/RPechoux/)
+- [Benoît Valiron](https://www.monoidal.net/)
+- [Vladimir Zamdzhiev](https://zamdzhiev.github.io/)
 
 ---
 
