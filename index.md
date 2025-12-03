@@ -4,7 +4,7 @@ title: LIQCS 2026
 subtitle: "1st International Workshop on Logic in Quantum Computer Science"
 ---
 
-<img src="/assets/img/LIQCS-logo.png" alt="LIQCS logo" style="max-width: 300px;">
+<!-- <img src="/assets/img/LIQCS-logo.png" alt="LIQCS logo" style="max-width: 300px;"> -->
 
 # LIQCS 2026  
 **Logic in Quantum Computer Science**  
