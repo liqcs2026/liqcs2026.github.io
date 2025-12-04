@@ -29,16 +29,15 @@ recently published results, and perspectives on emerging research directions.
 
 Topics include, but are not limited to:
 
-- Logical systems for quantum computation  
-- Type systems for quantum programming languages  
-- Models of quantum computation: lambda calculi, term rewriting systems, process calculi, …  
-- Denotational, operational, and categorical semantics of languages/logics for quantum computing
-- Realisability, game semantics, and algebraic models for quantum systems  
-- Logics for verification and reasoning about quantum programs and protocols  
-- Formal methods for quantum and hybrid quantum–classical systems  
+- Mathematical and logical methods for quantum computation  
 - Interactions between quantum information theory and logic  
-- Foundational aspects of quantum programming  
-- Foundational aspects of quantum cryptography  
+- Type systems for quantum programming languages  
+- Models of quantum computation: lambda calculi, term rewriting systems, process calculi, etc.
+- Denotational, operational, and categorical semantics of languages/logics for quantum computing
+- Logics for verification and reasoning about quantum programs and protocols  
+- Realisability, game semantics, and algebraic models for quantum systems  
+- Formal methods for quantum and hybrid quantum–classical systems  
+- Mathematical and logical aspects of quantum cryptography  
 
 If in doubt about the suitability of your submission, feel free to contact the organisers.
 
