@@ -64,7 +64,7 @@ LIQCS community.
 - Suggested length: **2–5 pages**, excluding references (flexible).  
 - All submissions will be reviewed by the Programme Committee
   for quality and relevance.  
-- A dedicated **EasyChair link** will be provided soon.
+- Submissions are to be made via [EasyChair](https://easychair.org/conferences?conf=liqcs2026)
 
 Accepted contributions will be presented as talks during the workshop.
 
@@ -86,7 +86,7 @@ TBA
 
 ---
 
-## Organisers
+## Organisers and PC Chairs
 
 - [Alejandro Díaz-Caro](https://members.loria.fr/ADiazCaro/)
 - [Romain Péchoux](https://members.loria.fr/RPechoux/)
@@ -97,5 +97,17 @@ TBA
 
 ## Programme Committee
 
-TBC
+- Kostia Chardonnet
+- Ugo Dal Lago
+- Kinnari Dave
+- Alejandro Díaz-Caro
+- Claudia Faggian
+- Emmanuel Hainry
+- Chris Heunen
+- Octavio Malherbe
+- Romain Péchoux
+- Peter Selinger
+- Takeshi Tsukada
+- Benoît Valiron
+- Vladimir Zamdzhiev
 
