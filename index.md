@@ -97,7 +97,7 @@ TBA
 
 ---
 
-## Programme Committee
+## Program Committee
 
 - Kostia Chardonnet
 - Ugo Dal Lago
