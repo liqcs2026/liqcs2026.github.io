@@ -55,8 +55,7 @@ If in doubt about the suitability of your submission, feel free to contact the o
 
 ## Submission Information
 ---------------------
-The submission site is:
-   https://easychair.org/conferences?conf=liqcs2026
+The submission site is available [here](https://easychair.org/conferences?conf=liqcs2026).
 
 We invite submissions of extended abstracts describing original work, work in progress, or results recently published elsewhere that are relevant to the LIQCS community.
 
