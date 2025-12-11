@@ -54,21 +54,17 @@ If in doubt about the suitability of your submission, feel free to contact the o
 ---
 
 ## Submission Information
+---------------------
+The submission site is:
+   https://easychair.org/conferences?conf=liqcs2026
 
-LIQCS 2026 has **no formal proceedings**.  
-We invite submissions of **extended abstracts** describing original work, work
-in progress, or results recently published elsewhere that are relevant to the
-LIQCS community.
+We invite submissions of extended abstracts describing original work, work in progress, or results recently published elsewhere that are relevant to the LIQCS community.
 
-- Submissions should be abstract in PDF format of 2 to 5 pages in length (excluding bibliography).
-- Appendices or links to longer documents are permitted, although the referees may or may not refer to them. 
+- Submissions should be in PDF format, 2-5 pages in length (excluding bibliography).
+- Appendices or links to longer documents are welcome, but the reviewers are not obliged to read them.
 - All submissions will be reviewed by the Program Committee for quality and relevance.
 - Accepted contributions must be presented as talks during the workshop.
-- Although there are no formal proceedings, the corresponding abstract will be made available on the website. 
-- Submissions link:
-  [https://easychair.org/conferences?conf=liqcs2026](https://easychair.org/conferences?conf=liqcs2026)
-
-Accepted contributions will be presented as talks during the workshop.
+- Although there are no formal proceedings, we will publish the extended abstracts on the website.
 
 ---
 
