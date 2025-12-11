@@ -60,11 +60,13 @@ We invite submissions of **extended abstracts** describing original work, work
 in progress, or results recently published elsewhere that are relevant to the
 LIQCS community.
 
-- Submissions should be in **PDF format**.  
-- Suggested length: **2–5 pages**, excluding references (flexible).  
-- All submissions will be reviewed by the Programme Committee
-  for quality and relevance.  
-- Submissions are to be made via [EasyChair](https://easychair.org/conferences?conf=liqcs2026)
+- Submissions should be abstract in PDF format of 2 to 5 pages in length (excluding bibliography).
+- Appendices or links to longer documents are permitted, although the referees may or may not refer to them. 
+- All submissions will be reviewed by the Program Committee for quality and relevance.
+- Accepted contributions must be presented as talks during the workshop.
+- Although there are no formal proceedings, the corresponding abstract will be made available on the website. 
+- Submissions link:
+  [https://easychair.org/conferences?conf=liqcs2026](https://easychair.org/conferences?conf=liqcs2026)
 
 Accepted contributions will be presented as talks during the workshop.
 
