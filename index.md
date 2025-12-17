@@ -104,6 +104,7 @@ TBA
 - Octavio Malherbe
 - Romain Péchoux
 - Peter Selinger
+- Sam Staton
 - Takeshi Tsukada
 - Benoît Valiron
 - Vladimir Zamdzhiev
