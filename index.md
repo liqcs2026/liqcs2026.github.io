@@ -92,7 +92,7 @@ Information on access, accommodation and local logistics will be added later.
 - *Higher order maps in operational probabilistic theories.* Alessandro Bisio, Luca Apadula, Marco Erba, and Paolo Perinotti.
 - *Denotational semantics for stabiliser quantum programs.* Robert Booth and Cole Comfort.
 - *Graphical Algebraic Geometry: From Ideals and Varieties to Qudit ZH Completeness.* Dichuan Gao, Razin A. Shaikh, and Aleks Kissinger.
-- *Quantum Bayesian Networks: Compositionality and Typing via Linear Logic. * Rémi Di Guardia, Thomas Ehrhard, and Claudia Faggian.
+- *Quantum Bayesian Networks: Compositionality and Typing via Linear Logic.* Rémi Di Guardia, Thomas Ehrhard, and Claudia Faggian.
 - *One rig to control them all.* Chris Heunen, Robin Kaarsgaard, and Louis Lemonnier.
 - *Towards a New Logic for Higher Order Quantum Computation.* Julien Lamiroy.
 - *Programming with Quantum-Controlled Quantum Channels.* Kengo Hirata and Takeshi Tsukada.
