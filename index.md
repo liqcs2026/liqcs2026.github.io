@@ -79,34 +79,34 @@ Information on access, accommodation and local logistics will be added later.
 
 ## Accepted Talks
 
-- *	What are quantum measurable spaces?	*	Tobias Fritz and Antonio Lorenzin
-- *	Resource-Aware Quantum Programming with General Recursion and Quantum Control	*	Thomas Vinet, Kostia Chardonnet, Emmanuel Hainry and Romain Péchoux
-- *	Basis-Sensitive Quantum Typing via Realizability	*	Alejandro Díaz-Caro, Octavio Malherbe and Rafael Romero
-- *	Quantum Control and General Recursion beyond the Unitary Case	*	Kathleen Barsse, Romain Péchoux and Simon Perdrix
-- *	An Algebraic Extension of Intuitionistic Linear Logic: the L-S-!-Calculus and Its Categorical Model	*	Alejandro Díaz-Caro, Malena Ivnisky and Octavio Malherbe
-- *	Quantum Coherence Spaces Revisited: A von Neumann (Co)Algebraic Approach	*	Thea Li and Vladimir Zamdzhiev
-- *	Higher-order circuitd	*	Matt Wilson
-- *	Higher-order quantum objects are strong profunctors	*	Matt Wilson and James Hefford
-- *	BV-Categories of Spacetime Interventions	*	Matt Wilson and James Hefford
-- *	Static Resource Analysis of Hybrid Programs with Unbounded Loops	*	Jad Issa, Christophe Chareton and Romain Péchoux
-- *	Higher order maps in operational probabilistic theories	*	Alessandro Bisio, Luca Apadula, Marco Erba and Paolo Perinotti
-- *	Denotational semantics for stabiliser quantum programs	*	Robert Booth and Cole Comfort
-- *	Graphical Algebraic Geometry: From Ideals and Varieties to Qudit ZH Completeness	*	Dichuan Gao, Razin A. Shaikh and Aleks Kissinger
-- *	Quantum Bayesian Networks: Compositionality and Typing via Linear Logic	*	Rémi Di Guardia, Thomas Ehrhard and Claudia Faggian
-- *	One rig to control them all	*	Chris Heunen, Robin Kaarsgaard and Louis Lemonnier
-- *	Towards a New Logic for Higher Order Quantum Computation	*	Julien Lamiroy
-- *	Programming with Quantum-Controlled Quantum Channels	*	Kengo Hirata and Takeshi Tsukada
-- *	Finite Observations, Infinite Behaviour: categorical semantics for stateful quantum processes	*	Cole Comfort and Giovanni de Felice
-- *	Noncommutative models of quantum computing	*	Bert Lindenhovius
-- *	Completeness Is Not Enough: Simpler Presentations and Minimality for Near-Clifford Circuit Fragments	*	Colin Blake
-- *	A Complete and Natural Rule Set for Multi-Qudit Clifford Circuits in All Odd Prime Dimensions	*	Xiaoning Bian, Sarah Meng Li, Neil J. Ross, John van de Wetering and Yuming Zhao
-- *	Quantum instruments are a quantum effect monad	*	Robert I. Booth, Dominik Leichtle, Alex Rice and Kim Worrall
-- *	Polynomial Spectral Semantics for Magic-State Distillation	*	Dongho Lee
-- *	Quantum Programming in Polylogarithmic Time	*	Florent Ferrari, Emmanuel Hainry, Romain Péchoux and Mário Silva
-- *	Towards Quantum Inference on Higher-Order Bayesian Networks	*	Jérôme Evrard, Claudia Faggian, Giacomo Gatti and Gabriele Vanoni
-- *	Structure and geometry complete completeness	*	Chris Heunen, Nicolas Heurtel, Robin Kaarsgaard and Louis Lemonnier
-- *	Symbolic Verification of Quantum Protocols via Quantum Distributions -- Early Ideas	*	Gabriele Tedeschi, Lorenzo Ceragioli, Giuseppe Lomurno and Fabio Gadducci
-- *	Operator Spaces, Linear Logic and the Heisenberg-Schrödinger Duality of Quantum Theory	*	Bert Lindenhovius and Vladimir Zamdzhiev
+- *What are quantum measurable spaces?* Tobias Fritz and Antonio Lorenzin
+- *Resource-Aware Quantum Programming with General Recursion and Quantum Control.* Thomas Vinet, Kostia Chardonnet, Emmanuel Hainry, and Romain Péchoux.
+- *Basis-Sensitive Quantum Typing via Realizability.* Alejandro Díaz-Caro, Octavio Malherbe, and Rafael Romero.
+- *Quantum Control and General Recursion beyond the Unitary Case.* Kathleen Barsse, Romain Péchoux, and Simon Perdrix.
+- *An Algebraic Extension of Intuitionistic Linear Logic: the L-S-!-Calculus and Its Categorical Model.* Alejandro Díaz-Caro, Malena Ivnisky, and Octavio Malherbe.
+- *Quantum Coherence Spaces Revisited: A von Neumann (Co)Algebraic Approach.* Thea Li and Vladimir Zamdzhiev.
+- *Higher-order circuits.* Matt Wilson.
+- *Higher-order quantum objects are strong profunctors.* Matt Wilson and James Hefford.
+- *BV-Categories of Spacetime Interventions.* Matt Wilson and James Hefford.
+- *Static Resource Analysis of Hybrid Programs with Unbounded Loops.* Jad Issa, Christophe Chareton, and Romain Péchoux.
+- *Higher order maps in operational probabilistic theories	*	Alessandro Bisio, Luca Apadula, Marco Erba and Paolo Perinotti
+- *Denotational semantics for stabiliser quantum programs	*	Robert Booth and Cole Comfort
+- *Graphical Algebraic Geometry: From Ideals and Varieties to Qudit ZH Completeness	*	Dichuan Gao, Razin A. Shaikh and Aleks Kissinger
+- *Quantum Bayesian Networks: Compositionality and Typing via Linear Logic	*	Rémi Di Guardia, Thomas Ehrhard and Claudia Faggian
+- *One rig to control them all	*	Chris Heunen, Robin Kaarsgaard and Louis Lemonnier
+- *Towards a New Logic for Higher Order Quantum Computation	*	Julien Lamiroy
+- *Programming with Quantum-Controlled Quantum Channels	*	Kengo Hirata and Takeshi Tsukada
+- *Finite Observations, Infinite Behaviour: categorical semantics for stateful quantum processes	*	Cole Comfort and Giovanni de Felice
+- *Noncommutative models of quantum computing	*	Bert Lindenhovius
+- *Completeness Is Not Enough: Simpler Presentations and Minimality for Near-Clifford Circuit Fragments	*	Colin Blake
+- *A Complete and Natural Rule Set for Multi-Qudit Clifford Circuits in All Odd Prime Dimensions	*	Xiaoning Bian, Sarah Meng Li, Neil J. Ross, John van de Wetering and Yuming Zhao
+- *Quantum instruments are a quantum effect monad	*	Robert I. Booth, Dominik Leichtle, Alex Rice and Kim Worrall
+- *Polynomial Spectral Semantics for Magic-State Distillation	*	Dongho Lee
+- *Quantum Programming in Polylogarithmic Time	*	Florent Ferrari, Emmanuel Hainry, Romain Péchoux and Mário Silva
+- *Towards Quantum Inference on Higher-Order Bayesian Networks	*	Jérôme Evrard, Claudia Faggian, Giacomo Gatti and Gabriele Vanoni
+- *Structure and geometry complete completeness	*	Chris Heunen, Nicolas Heurtel, Robin Kaarsgaard and Louis Lemonnier
+- *Symbolic Verification of Quantum Protocols via Quantum Distributions -- Early Ideas	*	Gabriele Tedeschi, Lorenzo Ceragioli, Giuseppe Lomurno and Fabio Gadducci
+- *Operator Spaces, Linear Logic and the Heisenberg-Schrödinger Duality of Quantum Theory	*	Bert Lindenhovius and Vladimir Zamdzhiev
 
 ---
 
