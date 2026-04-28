@@ -42,7 +42,6 @@ subtitle: "1st International Workshop on Logic in Quantum Computer Science"
   <a href="#pc">PC</a>
 </div>
 
----
 
 ## About LIQCS {#about}
 
