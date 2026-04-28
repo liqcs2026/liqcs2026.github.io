@@ -110,9 +110,136 @@ Information on access, accommodation and local logistics will be added later.
 
 ---
 
-## Programme
+## Schedule 
 
-TBA
+<style>
+  .schedule-wrapper {
+    overflow-x: auto;
+    margin: 20px 0;
+  }
+
+  .schedule-table {
+    border-collapse: collapse;
+    width: 100%;
+    min-width: 700px;
+    table-layout: fixed;
+    font-size: 0.95em;
+  }
+
+  .schedule-table th,
+  .schedule-table td {
+    text-align: center;
+    vertical-align: middle;
+    border: 1px solid #ddd;
+    padding: 6px;
+    transition: background 0.2s ease;
+  }
+
+  .schedule-table th {
+    background: #000;
+    color: #fff;
+    font-weight: 600;
+  }
+
+  .schedule-table tr:hover td {
+    background: #f7f7f7;
+  }
+
+  .time-col {
+    background: #f5f5f5;
+    font-weight: 500;
+    width: 18%;
+  }
+
+  .day-col {
+    width: 27%;
+  }
+
+.schedule-table tr:nth-child(even),
+.schedule-table tr:nth-child(odd) {
+  background: transparent !important;
+}
+
+.empty { background: #fff; }
+
+.talk { background: #d9ead3; }
+.coffee { background: #fff2cc; }
+.lunch { background: #fce5cd; }
+.meeting { background: #d0e0e3; }
+
+
+</style>
+
+<div class="schedule-wrapper">
+<table class="schedule-table">
+  <thead>
+    <tr>
+      <th class="time-col">Time Slot</th>
+      <th class="day-col">Wednesday (17/06)</th>
+      <th class="day-col">Thursday (18/06)</th>
+      <th class="day-col">Friday (19/06)</th>
+    </tr>
+  </thead>
+  <tbody>
+
+    <tr style="height:90px;">
+      <td class="time-col">09:00 - 10:30</td>
+      <td class="empty"></td>
+      <td class="talk">3 talks</td>
+      <td class="talk">3 talks</td>
+    </tr>
+
+    <tr style="height:30px;">
+      <td class="time-col coffee">10:30 - 11:00</td>
+      <td class="coffee">Coffee Break</td>
+      <td class="coffee">Coffee Break</td>
+      <td class="coffee">Coffee Break</td>
+    </tr>
+
+    <tr style="height:90px;">
+      <td class="time-col">11:00 - 12:30</td>
+      <td class="talk">3 talks</td>
+      <td class="talk">3 talks</td>
+      <td class="talk">3 talks</td>
+    </tr>
+
+    <tr style="height:90px;">
+      <td class="time-col lunch">12:30 - 14:00</td>
+      <td class="lunch">Lunch Break</td>
+      <td class="lunch">Lunch Break</td>
+      <td class="lunch">Lunch Break</td>
+    </tr>
+
+    <tr style="height:90px;">
+      <td class="time-col">14:00 - 15:30</td>
+      <td class="talk">3 talks</td>
+      <td class="talk">3 talks</td>
+      <td class="talk">3 talks</td>
+    </tr>
+
+    <tr style="height:30px;">
+      <td class="time-col coffee">15:30 - 16:00</td>
+      <td class="coffee">Coffee Break</td>
+      <td class="coffee">Coffee Break</td>
+      <td class="empty"></td>
+    </tr>
+
+    <tr style="height:30px;">
+      <td class="time-col">16:00 - 16:30</td>
+      <td rowspan="2" class="talk">3 talks</td>
+      <td class="talk">1 talk</td>
+      <td class="empty"></td>
+    </tr>
+
+    <tr style="height:60px;">
+      <td class="time-col">16:30 - 17:30</td>
+      <td class="meeting">Business Meeting</td>
+      <td class="empty"></td>
+    </tr>
+
+  </tbody>
+</table>
+</div>
 
 ---
 
