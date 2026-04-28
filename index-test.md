@@ -112,7 +112,16 @@ Information on access, accommodation and local logistics will be added later.
 
 ## Programme
 
-<table style="border-collapse: collapse; width: 100%; text-align: center;">
+<style>
+  .schedule-table td, .schedule-table th {
+    text-align: center !important;
+    vertical-align: middle !important;
+    border: 1px solid #ccc;
+    padding: 8px;
+  }
+</style>
+
+<table class="schedule-table" style="border-collapse: collapse; width: 100%;">
   <thead>
     <tr style="background:#000; color:#fff;">
       <th>Time Slot</th>
@@ -122,72 +131,54 @@ Information on access, accommodation and local logistics will be added later.
     </tr>
   </thead>
   <tbody>
-
-    <!-- 09:00 - 10:30 -->
     <tr style="height:90px;">
       <td>09:00 - 10:30</td>
       <td></td>
       <td style="background:#d9ead3;">3 talks</td>
       <td style="background:#d9ead3;">3 talks</td>
     </tr>
-
-    <!-- 10:30 - 11:00 -->
     <tr style="height:30px; background:#fff2cc;">
       <td>10:30 - 11:00</td>
       <td>Coffee Break</td>
       <td>Coffee Break</td>
       <td>Coffee Break</td>
     </tr>
-
-    <!-- 11:00 - 12:30 -->
     <tr style="height:90px;">
       <td>11:00 - 12:30</td>
       <td style="background:#d9ead3;">3 talks</td>
       <td style="background:#d9ead3;">3 talks</td>
       <td style="background:#d9ead3;">3 talks</td>
     </tr>
-
-    <!-- 12:30 - 14:00 -->
     <tr style="height:90px; background:#fce5cd;">
       <td>12:30 - 14:00</td>
       <td>Lunch Break</td>
       <td>Lunch Break</td>
       <td>Lunch Break</td>
     </tr>
-
-    <!-- 14:00 - 15:30 -->
     <tr style="height:90px;">
       <td>14:00 - 15:30</td>
       <td style="background:#d9ead3;">3 talks</td>
       <td style="background:#d9ead3;">3 talks</td>
       <td style="background:#d9ead3;">3 talks</td>
     </tr>
-
-    <!-- 15:30 - 16:00 -->
     <tr style="height:30px; background:#fff2cc;">
       <td>15:30 - 16:00</td>
       <td>Coffee Break</td>
       <td>Coffee Break</td>
       <td></td>
     </tr>
-
-    <!-- 16:00 - 16:30 -->
     <tr style="height:30px;">
       <td>16:00 - 16:30</td>
       <td rowspan="2" style="background:#d9ead3;">3 talks</td>
       <td style="background:#d9ead3;">1 talk</td>
       <td></td>
     </tr>
-
-    <!-- 16:30 - 17:30 -->
     <tr style="height:60px;">
       <td>16:30 - 17:30</td>
-      <td style="background:#d0e0e3;">
-        Business Meeting (16:30 -- 17:30)
-      </td>
+      <td>16:30 - 17:30</td>
+      <td style="background:#d0e0e3;">Business Meeting</td>
       <td></td>
     </tr>
-
   </tbody>
 </table>
 
