@@ -10,6 +10,36 @@ subtitle: "1st International Workshop on Logic in Quantum Computer Science"
 **Logic in Quantum Computer Science**  
 **17–19 June 2026 – Inria de Paris, 48 Rue Barrault**
 
+.top-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin: 20px 0 30px 0;
+  padding: 10px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.top-nav a {
+  text-decoration: none;
+  color: #0366d6;
+  font-size: 0.95em;
+}
+
+.top-nav a:hover {
+  text-decoration: underline;
+}
+<div class="top-nav">
+  <a href="#about">About</a>
+  <a href="#topics">Topics</a>
+  <a href="#dates">Dates</a>
+  <a href="#submission">Submission</a>
+  <a href="#venue">Venue</a>
+  <a href="#talks">Talks</a>
+  <a href="#schedule">Schedule</a>
+  <a href="#organisers">Organisers</a>
+  <a href="#pc">PC</a>
+</div>
+
 ---
 
 ## About LIQCS {#about}
