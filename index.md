@@ -24,6 +24,7 @@ subtitle: "1st International Workshop on Logic in Quantum Computer Science"
   padding: 10px;
 
   border-bottom: 1px solid #ddd;
+  border-radius: 8px;
 
   position: sticky;
   top: 0;
