@@ -155,18 +155,18 @@ Information on access, accommodation and local logistics will be added later.
     width: 27%;
   }
 
-  .talk { background: #d9ead3; }
-  .coffee { background: #fff2cc; }
-  .lunch { background: #fce5cd; }
-  .meeting { background: #d0e0e3; }
+.schedule-table tr:nth-child(even),
+.schedule-table tr:nth-child(odd) {
+  background: transparent !important;
+}
 
-  /* Evitar que hover rompa colores importantes */
-  .talk:hover,
-  .coffee:hover,
-  .lunch:hover,
-  .meeting:hover {
-    filter: brightness(0.98);
-  }
+.empty { background: #fff; }
+
+.talk { background: #d9ead3; }
+.coffee { background: #fff2cc; }
+.lunch { background: #fce5cd; }
+.meeting { background: #d0e0e3; }
+
 
 </style>
 
@@ -184,7 +184,7 @@ Information on access, accommodation and local logistics will be added later.
 
     <tr style="height:90px;">
       <td class="time-col">09:00 - 10:30</td>
-      <td></td>
+      <td class="empty"></td>
       <td class="talk">3 talks</td>
       <td class="talk">3 talks</td>
     </tr>
@@ -221,20 +221,20 @@ Information on access, accommodation and local logistics will be added later.
       <td class="time-col coffee">15:30 - 16:00</td>
       <td class="coffee">Coffee Break</td>
       <td class="coffee">Coffee Break</td>
-      <td></td>
+      <td class="empty"></td>
     </tr>
 
     <tr style="height:30px;">
       <td class="time-col">16:00 - 16:30</td>
       <td rowspan="2" class="talk">3 talks</td>
       <td class="talk">1 talk</td>
-      <td></td>
+      <td class="empty"></td>
     </tr>
 
     <tr style="height:60px;">
       <td class="time-col">16:30 - 17:30</td>
       <td class="meeting">Business Meeting</td>
-      <td></td>
+      <td class="empty"></td>
     </tr>
 
   </tbody>
