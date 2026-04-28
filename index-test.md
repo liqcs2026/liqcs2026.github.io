@@ -110,7 +110,7 @@ Information on access, accommodation and local logistics will be added later.
 
 ---
 
-## Programme
+## Schedule 
 
 <style>
   .schedule-table td, .schedule-table th {
