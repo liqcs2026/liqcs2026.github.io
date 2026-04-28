@@ -10,6 +10,7 @@ subtitle: "1st International Workshop on Logic in Quantum Computer Science"
 **Logic in Quantum Computer Science**  
 **17–19 June 2026 – Inria de Paris, 48 Rue Barrault**
 
+<style>
 .top-nav {
   display: flex;
   flex-wrap: wrap;
@@ -28,6 +29,7 @@ subtitle: "1st International Workshop on Logic in Quantum Computer Science"
 .top-nav a:hover {
   text-decoration: underline;
 }
+</style>
 <div class="top-nav">
   <a href="#about">About</a>
   <a href="#topics">Topics</a>
@@ -169,10 +171,6 @@ Information on access, accommodation and local logistics will be added later.
     background: #000;
     color: #fff;
     font-weight: 600;
-  }
-
-  .schedule-table tr:hover td {
-    background: #f7f7f7;
   }
 
   .time-col {
