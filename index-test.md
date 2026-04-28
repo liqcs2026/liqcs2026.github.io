@@ -175,8 +175,8 @@ Information on access, accommodation and local logistics will be added later.
     </tr>
     <tr style="height:60px;">
       <td>16:30 - 17:30</td>
-      <td>16:30 - 17:30</td>
       <td style="background:#d0e0e3;">Business Meeting</td>
+      <td></td>
       <td></td>
     </tr>
   </tbody>
