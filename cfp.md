@@ -1,11 +1,10 @@
 ---
 layout: default
-title: LIQCS 2026
+title: LIQCS 2026 - Call for Papers
 subtitle: "1st International Workshop on Logic in Quantum Computer Science"
 ---
 
-# LIQCS 2026  
-**Logic in Quantum Computer Science**  
+# Call for Papers – LIQCS 2026  
 **17–19 June 2026 – Inria de Paris, 48 Rue Barrault**
 
 <style>
@@ -17,19 +16,16 @@ subtitle: "1st International Workshop on Logic in Quantum Computer Science"
   display: flex;
   flex-wrap: wrap;
   gap: 12px;
-
   margin: 20px 0 30px 0;
   padding: 10px;
-
   border-bottom: 1px solid #ddd;
   border-radius: 8px;
-
   position: sticky;
   top: 0;
   background: white;
   z-index: 1000;
-
   box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+  align-items: center;
 }
 
 .top-nav a {
@@ -41,16 +37,23 @@ subtitle: "1st International Workshop on Logic in Quantum Computer Science"
 .top-nav a:hover {
   text-decoration: underline;
 }
+
+.nav-home {
+  font-weight: bold;
+  border-right: 1px solid #ddd;
+  padding-right: 12px;
+  margin-right: 4px;
+}
 </style>
 
 <div class="top-nav">
+  <a href="index.html" class="nav-home">← Main Page</a>
   <a href="#about">About</a>
   <a href="#topics">Topics</a>
   <a href="#dates">Dates</a>
   <a href="#submission">Submission</a>
   <a href="#organisers">Organisers</a>
 </div>
-
 
 ## About LIQCS {#about}
 
