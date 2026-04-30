@@ -110,10 +110,20 @@ We invite submissions of extended abstracts describing original work, work in pr
 
 ---
 
-## Organisers and PC Chairs {#organisers}
+## Program Committee {#organisers}
 
-- [Alejandro Díaz-Caro](https://members.loria.fr/ADiazCaro/)
-- [Romain Péchoux](https://members.loria.fr/RPechoux/)
-- [Benoît Valiron](https://www.monoidal.net/)
-- [Vladimir Zamdzhiev](https://zamdzhiev.github.io/)
+- Kostia Chardonnet
+- Ugo Dal Lago
+- Kinnari Dave
+- Alejandro Díaz-Caro (Co-chair)
+- Claudia Faggian
+- Emmanuel Hainry
+- Chris Heunen
+- Octavio Malherbe
+- Romain Péchoux (Co-chair)
+- Peter Selinger
+- Sam Staton
+- Takeshi Tsukada
+- Benoît Valiron (Co-chair)
+- Vladimir Zamdzhiev (Co-chair)
 
