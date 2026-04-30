@@ -61,6 +61,40 @@ subtitle: "1st International Workshop on Logic in Quantum Computer Science"
   text-decoration: none;
   border-color: #0366d6;
 }
+
+.btn-reg {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 8px 16px;
+  background-color: #24292e;
+  color: #ffffff !important;
+  border: 1px solid #24292e;
+  border-radius: 6px;
+  font-weight: 600;
+  text-decoration: none;
+  font-size: 0.9em;
+}
+
+.btn-reg:hover {
+  background-color: #2f363d;
+  border-color: #2f363d;
+  text-decoration: none;
+}
+
+.reg-note {
+  font-size: 0.9em;
+  color: #586069;
+  margin-top: 10px;
+  display: block;
+}
+
+.reg-deadline {
+  color: #d73a49; 
+  font-weight: 600;
+  background-color: #ffeef0; 
+  padding: 2px 4px;
+  border-radius: 3px;
+}
 </style>
 
 <div class="top-nav">
@@ -85,6 +119,13 @@ The workshop welcomes contributions presenting new ideas, work in progress,
 recently published results, and perspectives on emerging research directions.
 
 <a href="cfp.html" class="btn-cfp">View Call for Papers & Detailed Topics</a>
+
+---
+
+<a href="https://sondages.inria.fr/index.php/825857" class="btn-reg">Register here</a>
+<span class="reg-note">
+  Registration is **free but mandatory** before <span class="reg-deadline">June 8, 2026</span>.
+</span>
 
 ---
 
