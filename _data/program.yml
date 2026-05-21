@@ -13,7 +13,7 @@ sessions:
           - Robin Kaarsgaard
           - Louis Lemonnier
         abstract: |
-          TODO
+          We introduce a theory for computational control, consisting of eight naturally interpretable equations. Adding these to a prop of base circuits constructs controlled circuits, borne out in examples of reversible Boolean circuits and quantum circuits. We prove that this syntactic construction semantically corresponds to taking the free rig category on the base prop.
 
       - id: bv-categories-of-spacetime-interventions
         title: "BV-Categories of Spacetime Interventions."
@@ -21,14 +21,16 @@ sessions:
           - Matt Wilson
           - James Hefford
         abstract: |
-          TODO
+          We use the Chu construction to functorially build BV-categories from duoidal categories, demonstrating that candidate models of BV-logic can be cofreely constructed from a fragment of a model of Guglielmi’s sequencing operator. By using this construction to show that the strong Hyland envelope is a BV-category, we find a way to build a canonical model of spatio-temporal relationships between agents in spacetime from any symmetric monoidal category. The concrete physical interpretation of spacetime events in this model as intervention-context pairs resolves deficiencies in previous attempts to give a general categorical semantics to higher-order quantum operations - in particular, those which are unitary.
 
       - id: completeness-is-not-enough
         title: "Completeness Is Not Enough: Simpler Presentations and Minimality for Near-Clifford Circuit Fragments."
         authors:
           - Colin Blake
         abstract: |
-          TODO
+          Completeness for a quantum-circuit fragment answers only part of the equational story. It tells us that every valid identity can be derived, but it does not distinguish genuine algebraic laws from equations that merely encode structural symmetry, nor does it say whether the surviving axioms are independent. We therefore revisit six near-Clifford fragments in a PROP setting, where wire permutations are ambient structure rather than fragment-specific axioms, and obtain smaller complete presentations for qubit Clifford, real Clifford, CNOT-dihedral, bounded-wire Clifford+T, bounded-wire Clifford+CS, and qutrit Clifford.
+
+          Across the six fragments, the PROP reformulation exposes a smaller algebraic core while still leaving nontrivial derivations to recover laws that were previously explicit. The reduced PROP presentations for qubit Clifford, real Clifford, and CNOT-dihedral are minimal; those for Clifford+T and Clifford+CS are minimal at low arity but leave one further wire layer to settle; and qutrit Clifford is minimal up to two qutrit wires, leaving only a single ternary braid relation unresolved.
 
   - id: session-2
     title: Session 2

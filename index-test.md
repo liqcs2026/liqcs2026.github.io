@@ -101,8 +101,8 @@ subtitle: "1st International Workshop on Logic in Quantum Computer Science"
 
 <div class="top-nav">
   <a href="#about">About</a>
-  <a href="#schedule">Schedule</a>
-  <a href="#talks">Accepted talks</a>
+  <a href="#schedule">Overall Schedule</a>
+  <a href="#talks">Detailed Program</a>
   <a href="#venue">Venue</a>
   <a href="#organisers">Organisers</a>
   <a href="#pc">PC</a>
