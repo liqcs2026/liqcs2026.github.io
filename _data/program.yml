@@ -213,7 +213,7 @@ sessions:
           - Giuseppe Lomurno
           - Fabio Gadducci
         abstract: |
-          The development of quantum communication protocols sparked the interest in quantum extensions of process calculi. The prominent approaches, however, are still based on probabilistic models, which are inadequate for the quantum case, as they do not capture the observational limitations of quantum theory.  In Physics, probabilistic quantum systems are not represented with probabilities, but with density operators.  By lifting this concept to the Computer Science setting, we introduce Operator Distributions: they employ density operators as weights, just like probability distributions use real numbers.  We give semantics to quantum protocols in a natural way, as an LTS of operator distributions, guaranteeing that only physically accessible information about the systems are represented.  Moreover, these ""quantum"" distributions pave the way for symbolic verification of protocols whose behaviour depends on an unknown initial state: instead of considering infinitely-many LTSs, one for each possible initialization, we can build a single symbolic LTS and prove properties on it.
+          The development of quantum communication protocols sparked the interest in quantum extensions of process calculi. The prominent approaches, however, are still based on probabilistic models, which are inadequate for the quantum case, as they do not capture the observational limitations of quantum theory.  In Physics, probabilistic quantum systems are not represented with probabilities, but with density operators.  By lifting this concept to the Computer Science setting, we introduce Operator Distributions: they employ density operators as weights, just like probability distributions use real numbers.  We give semantics to quantum protocols in a natural way, as an LTS of operator distributions, guaranteeing that only physically accessible information about the systems are represented.  Moreover, these "quantum" distributions pave the way for symbolic verification of protocols whose behaviour depends on an unknown initial state: instead of considering infinitely-many LTSs, one for each possible initialization, we can build a single symbolic LTS and prove properties on it.
 
   - id: session-7
     title: Session 7
@@ -228,7 +228,11 @@ sessions:
           - Tobias Fritz
           - Antonio Lorenzin
         abstract: |
-          TODO
+          In quantum probability, the category of C*-algebras and completely positive unital (cpu) maps is a well-established setting. However, its classical side, given by commutative C*-algebras, does not contain all regular conditional probabilities, a central concept in classical probability.  This shortcoming is due to the inherent topological nature of C*-algebras, which ties them to continuous rather than measurable structures.
+
+          To address this, we investigate what quantum measurable spaces should be, by establishing equivalences between special classes of C*-algebras and cpu maps and categories of measurable spaces with Markov kernels. Moreover, our operator-algebraic analysis equips these structures with a generalized notion of Markov kernels, realized as POVMs.
+
+          Ultimately, we obtain a categorical framework in which both classical and quantum probability coexist, and the classical side has regular conditional probabilities.
 
   - id: session-8
     title: Session 8
@@ -244,7 +248,7 @@ sessions:
           - Romain Péchoux
           - Simon Perdrix
         abstract: |
-          TODO
+          Coherent control, aka quantum control, is a central concept in quantum computing that is attracting increasing attention from both the quantum foundations and quantum software communities. Defining coherent control in the presence of recursion and measurement has long been known to be a major challenge. In particular, no-go results have been established for standard semantical domains like completely positive maps. We address this problem by introducing the first quantum programming language with recursion that allows for the coherent control of arbitrary quantum operations. We equip this language with both an operational  and a denotational semantics that we prove to be adequate. To design these semantics, we  show that combining coherent control, recursion, and measurement crucially requires describing the evolution of  subprograms in the absence of input. To address this, the operational semantics takes into account a default evolution branch, while the denotational semantics uses the concept of coherent quantum operation, based on vacuum extensions. We strengthen the validity of our approach by developing an observational equivalence: two programs are equivalent if their probability of termination is the same in any context. The denotational semantics is shown to be fully abstract with respect to this observational equivalence.
 
       - id: programming-quantum-controlled-channels
         title: "Programming with Quantum-Controlled Quantum Channels."
@@ -252,7 +256,11 @@ sessions:
           - Kengo Hirata
           - Takeshi Tsukada
         abstract: |
-          TODO
+          In contrast to a classical bit, which can only take the value 0 or 1, its quantum counterpart---a qubit---can exist in a superposition of $0$ and $1$. This is a superposition of data values, naturally raising the question of whether one can superpose not only data but also programs. For example, a particular superposition of programs, known as the quantum SWITCH, has attracted much attention, and its implementations and computational advantages have been studied extensively within the physics community.
+
+          Programming languages with quantum control typically restrict the target of quantum control to unitary operations; as a consequence, they cannot express the quantum SWITCH, which applies to quantum channels---the broader class that includes measurements. There are some proposals of languages with both measurement and quantum control, but these languages cannot describe the quantum SWITCH and suffer from an ill-behavedness issue of the semantics.
+
+This paper introduces a novel quantum programming language with both quantum control and measurement that can express the quantum SWITCH over quantum channels.  Using a semantic analysis, we identify the source of the ill-behavedness as the *correspondence problem*: a lack of coordination between the then- and else-branches of a quantum conditional branching. We address this with a linear type system that enforces alignment of the quantum operations used in the two branches, yielding a well-behaved language capable of expressing the quantum SWITCH.
 
       - id: resource-aware-quantum-programming
         title: "Resource-Aware Quantum Programming with General Recursion and Quantum Control."
@@ -262,7 +270,11 @@ sessions:
           - Emmanuel Hainry
           - Romain Péchoux
         abstract: |
-          TODO
+          This paper introduces the hybrid quantum language with general recursion Hyrql, which is driven towards resource-analysis. By design, Hyrql does not require the specification of an initial set of quantum gates. Hence, it is well amenable towards a generic cost analysis, unlike languages that use different sets of quantum gates, which yield quantum circuits of distinct complexity. It also satisfies standard properties of programming languages, such as progress, subject reduction and confluence.
+
+          Regarding resource-analysis, we show how to relate the runtime of an expressive fragment of Hyrql programs with the size of the corresponding quantum circuits. We also manage to capture the class of functions computable in quantum polynomial time, which, by Yao's Theorem, corresponds to families of circuits of polynomial size. Consequently, this result paves the way for the use of termination and runtime-analysis techniques designed for classical programs to guarantee bounds on the size of quantum circuits.
+
+          A complete version is available online at https://arxiv.org/abs/2510.20452.
 
   - id: session-9
     title: Session 9
@@ -279,14 +291,16 @@ sessions:
           - Alex Rice
           - Kim Worrall
         abstract: |
-          TODO
+          In this work, we aim to give hybrid quantum computation a concrete denotational semantics by modelling it as a computational effect added to a purely classical language.  To this end, we introduce the finite quantum instruments monad, which can be understood as a generalisation to quantum evolutions of the finite distribution monad, cleanly separating the classical and quantum parts of a program's semantics. Going beyond the case of finitely supported instruments, we sketch ongoing work in extending it to measurable spaces, in analogy with the Giry monad, and to directed-complete partial orders (DCPOs) to allow modelling of programs that may diverge, in analogy with the probabilistic powerdomain monad.
 
       - id: polynomial-spectral-semantics
         title: "Polynomial Spectral Semantics for Magic-State Distillation."
         authors:
           - Dongho Lee
         abstract: |
-          TODO
+          We develop a semantic framework for approximate quantum computation based on spectral transformations of quantum states. We introduce spectral quantum spaces, extending projective quantum state spaces by incorporating effects generated via functional calculus in the spectrum of observables and closed under convex combinations and multiplication of commuting effects. Building on this, we define polynomial spectral signal–state relations, where observable evaluations of parameterized states are polynomial functions of the parameters.
+
+          This framework separates structural (spectral) and computational (polynomial) aspects of quantum processes, and provides a natural setting for reasoning about approximation. As a case study, we formalize the Bravyi–Kitaev 5-qubit magic state distillation protocol as a morphism in the category of polynomial spectral signal–state relations. In this formulation, the protocol acts as a rational transformation on spectral parameters, arising from polynomial evaluation followed by normalization.
 
       - id: finite-observations-infinite-behaviour
         title: "Finite Observations, Infinite Behaviour: categorical semantics for stateful quantum processes."
@@ -294,7 +308,9 @@ sessions:
           - Cole Comfort
           - Giovanni de Felice
         abstract: |
-          TODO
+          Time-dependent processes are often described in terms of machines with an internal state which is updated as time evolves.  However, from the perspective of an external observer, two such processes can produce the same behaviour, even when their internal states differ.  We introduce a semantic construction which equates processes when they exhibit the same infinite external behaviour, as determined by all finite observations.  Our construction is defined over any preorder-enriched monoidal category with a suitable notion of discarding.  This provides a unified framework for partial, non-deterministic, probabilistic, and quantum processes evolving in space and time.
+
+          In this extended abstract we shall focus on the case of stateful quantum  processes.
 
   - id: session-10
     title: Session 10
@@ -308,7 +324,7 @@ sessions:
         authors:
           - Matt Wilson
         abstract: |
-          TODO
+          We write down a series of basic laws for (strict) higher-order circuit diagrams. More precisely, we define higher-order circuit theories in terms of: (a) nesting, (b) temporal and spatial composition, and (c) equivalence between lower-order bipartite processes and higher-order bipartite states. In category-theoretic terms, these laws are expressed using enrichment and cotensors in symmetric polycategories, along with a frobenius-like coherence between them. We describe how these laws capture the salient features of higher-order quantum theory, and discover an upper bound for higher-order circuits: any higher-order circuit theory embeds into the theory of strong profunctors.
 
       - id: higher-order-maps-opt
         title: "Higher order maps in operational probabilistic theories."
@@ -318,7 +334,13 @@ sessions:
           - Marco Erba
           - Paolo Perinotti
         abstract: |
-          TODO
+          Sequential and concurrent models of classical or quantum computation, such as Turing machines and circuits, describe computation as state changes over time. However, models like the Lambda calculus use higher-order operations on functions and are not immediately reducible to a sequence of state transformations. Physically, this corresponds to considering transformations of transformations, forming the basis of Higher-Order Quantum Theory. Here, quantum channels become inputs, enabling “second-order” gates that map channels to channels. This extends recursively, creating a hierarchy of higher-order maps (HOMs).  We provide an axiomatic framework, analogous to Kraus’ axiomatization of quantum operations, in which we characterize the admissible HOMs. Using the Choi isomorphism, we show that admissible maps lie within a cone of positive operators constrained by linear conditions [1].  Within the hierarchy, some HOMs can be realized as quantum circuits with open slots, while others (e.g., the quantum switch) exhibit an indefinite causal order. We prove a result linking a map’s functional description (i.e., its type) to its causal structure via no-signaling relations, based on the compositional structure of HOMs [2].  We then present a generalization of the higher-order framework to general physical theories, as described by the formalism of Operational Probabilistic Theories (OPTs) [3].  The starting point is to enrich an OPT with the notion of “contraction.” A contraction is a transformation resembling a categorical trace, which extends the compositional structure of the OPT beyond the sequential one and allows us to define the hierarchy of HOMs. We prove that a (convex) OPT admits a contraction if and only if it is endowed with the so-called Choi states and Choi effects.  Therefore, within our framework, the higher-order functionality of an OPT is not an extrinsic element but is fully determined by its native compositional structure.
+
+          [1] AB, P. Perinotti, Proc. R. Soc. A 475 20180706 (2019)
+
+          [2] L. Apadula, AB, P. Perinotti, Quantum 8, 1241 (2024)
+
+          [3] AB, M. Erba, L. Apadula, P.Perinotti (in preparation)"
 
       - id: higher-order-quantum-objects
         title: "Higher-order quantum objects are strong profunctors."
@@ -326,4 +348,4 @@ sessions:
           - Matt Wilson
           - James Hefford
         abstract: |
-          TODO
+          We explore the sense in which the existing constructions for higher-order maps on quantum theory based on causality constraints and compositionality constraints respectively, coincide. More precisely, we construct a functor F : Caus(C) → StProf(C1) from higher-order causal categories to the category of strong profunctors over first-order causal processes that is lax-lax duoidal, full, faithful, and strongly closed whenever C is additive. When C = CP this embedding is furthermore strong on the sequencer for duoidal categories, expressing the possibility to interpret one-way signalling (but not general non-signalling) constraints in terms of the coend calculus for profunctors.  We conclude that in so far as compositional constraints can be used to express causality constraints, the profunctorial approach generalises higher-order quantum theory to a construction over general symmetric monoidal categories.
