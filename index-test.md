@@ -4,7 +4,7 @@ title: LIQCS 2026
 subtitle: "1st International Workshop on Logic in Quantum Computer Science"
 ---
 
-<link rel="stylesheet" href="/assets/css/program.css">
+<link rel="stylesheet" href="/assets/css/program.css?v=2">
 
 # LIQCS 2026  
 **Logic in Quantum Computer Science**  
@@ -202,8 +202,8 @@ recently published results, and perspectives on emerging research directions.
     <tr style="height:90px;">
       <td class="time-col">09:00 - 10:30</td>
       <td class="empty"></td>
-      <td class="talk">Session 4</td>
-      <td class="talk">Session 8</td>
+      <td class="talk"><a href="#session-4">Session 4</a></td>
+      <td class="talk"><a href="#session-8">Session 8</a></td>
     </tr>
 
     <tr style="height:30px;">
@@ -215,9 +215,9 @@ recently published results, and perspectives on emerging research directions.
 
     <tr style="height:90px;">
       <td class="time-col">11:00 - 12:30</td>
-      <td class="talk">Session 1</td>
-      <td class="talk">Session 5</td>
-      <td class="talk">Session 9</td>
+      <td class="talk"><a href="#session-1">Session 1</a></td>
+      <td class="talk"><a href="#session-5">Session 5</a></td>
+      <td class="talk"><a href="#session-9">Session 9</a></td>
     </tr>
 
     <tr style="height:90px;">
@@ -229,9 +229,9 @@ recently published results, and perspectives on emerging research directions.
 
     <tr style="height:90px;">
       <td class="time-col">14:00 - 15:30</td>
-      <td class="talk">Session 2</td>
-      <td class="talk">Session 6</td>
-      <td class="talk">Session 10</td>
+      <td class="talk"><a href="#session-2">Session 2</a></td>
+      <td class="talk"><a href="#session-6">Session 6</a></td>
+      <td class="talk"><a href="#session-10">Session 10</a></td>
     </tr>
 
     <tr style="height:30px;">
@@ -243,8 +243,8 @@ recently published results, and perspectives on emerging research directions.
 
     <tr style="height:30px;">
       <td class="time-col">16:00 - 16:30</td>
-      <td rowspan="2" class="talk">Session 3</td>
-      <td class="talk">Session 7</td>
+      <td rowspan="2" class="talk"><a href="#session-3">Session 3</a></td>
+      <td class="talk"><a href="#session-7">Session 7</a></td>
       <td class="empty"></td>
     </tr>
 
@@ -272,7 +272,7 @@ recently published results, and perspectives on emerging research directions.
   {% for session in site.data.program.sessions %}
     {% if session.day == day %}
 
-      <div class="session-card">
+      <div class="session-card" id="{{ session.id }}">
 
         <div class="session-header">
           <div class="session-title">
