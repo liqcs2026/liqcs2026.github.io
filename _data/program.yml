@@ -260,7 +260,7 @@ sessions:
 
           Programming languages with quantum control typically restrict the target of quantum control to unitary operations; as a consequence, they cannot express the quantum SWITCH, which applies to quantum channels---the broader class that includes measurements. There are some proposals of languages with both measurement and quantum control, but these languages cannot describe the quantum SWITCH and suffer from an ill-behavedness issue of the semantics.
 
-This paper introduces a novel quantum programming language with both quantum control and measurement that can express the quantum SWITCH over quantum channels.  Using a semantic analysis, we identify the source of the ill-behavedness as the *correspondence problem*: a lack of coordination between the then- and else-branches of a quantum conditional branching. We address this with a linear type system that enforces alignment of the quantum operations used in the two branches, yielding a well-behaved language capable of expressing the quantum SWITCH.
+          This paper introduces a novel quantum programming language with both quantum control and measurement that can express the quantum SWITCH over quantum channels.  Using a semantic analysis, we identify the source of the ill-behavedness as the *correspondence problem*: a lack of coordination between the then- and else-branches of a quantum conditional branching. We address this with a linear type system that enforces alignment of the quantum operations used in the two branches, yielding a well-behaved language capable of expressing the quantum SWITCH.
 
       - id: resource-aware-quantum-programming
         title: "Resource-Aware Quantum Programming with General Recursion and Quantum Control."
