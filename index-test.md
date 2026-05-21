@@ -133,6 +133,60 @@ recently published results, and perspectives on emerging research directions.
 
 ## Schedule {#schedule}
 
+<style>
+  .schedule-wrapper {
+    overflow-x: auto;
+    margin: 20px 0;
+  }
+
+  .schedule-table {
+    border-collapse: collapse;
+    width: 100%;
+    min-width: 700px;
+    table-layout: fixed;
+    font-size: 0.95em;
+  }
+
+  .schedule-table th,
+  .schedule-table td {
+    text-align: center;
+    vertical-align: middle;
+    border: 1px solid #ddd;
+    padding: 6px;
+    transition: background 0.2s ease;
+  }
+
+  .schedule-table th {
+    background: #000;
+    color: #fff;
+    font-weight: 600;
+  }
+
+  .time-col {
+    background: #f5f5f5;
+    font-weight: 500;
+    width: 18%;
+  }
+
+  .day-col {
+    width: 27%;
+  }
+
+.schedule-table tr:nth-child(even),
+.schedule-table tr:nth-child(odd) {
+  background: transparent !important;
+}
+
+.empty { background: #fff; }
+
+.talk { background: #d9ead3; }
+.coffee { background: #fff2cc; }
+.lunch { background: #fce5cd; }
+.meeting { background: #d0e0e3; }
+
+
+</style>
+
 <div class="schedule-wrapper">
 <table class="schedule-table">
   <thead>
@@ -206,7 +260,7 @@ recently published results, and perspectives on emerging research directions.
 
 ---
 
-## Detailed Program
+## Detailed Program {#talks}
 
 {% assign days = "Wednesday,Thursday,Friday" | split: "," %}
 
