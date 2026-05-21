@@ -4,6 +4,8 @@ title: LIQCS 2026
 subtitle: "1st International Workshop on Logic in Quantum Computer Science"
 ---
 
+<link rel="stylesheet" href="/assets/css/program.css?v=2">
+
 # LIQCS 2026  
 **Logic in Quantum Computer Science**  
 **17–19 June 2026 – Inria de Paris, 48 Rue Barrault**
@@ -99,8 +101,8 @@ subtitle: "1st International Workshop on Logic in Quantum Computer Science"
 
 <div class="top-nav">
   <a href="#about">About</a>
-  <a href="#schedule">Schedule</a>
-  <a href="#talks">Accepted talks</a>
+  <a href="#schedule">Overall Schedule</a>
+  <a href="#talks">Detailed Program</a>
   <a href="#venue">Venue</a>
   <a href="#organisers">Organisers</a>
   <a href="#pc">PC</a>
@@ -200,8 +202,8 @@ recently published results, and perspectives on emerging research directions.
     <tr style="height:90px;">
       <td class="time-col">09:00 - 10:30</td>
       <td class="empty"></td>
-      <td class="talk">3 talks</td>
-      <td class="talk">3 talks</td>
+      <td class="talk"><a href="#session-4">Session 4</a></td>
+      <td class="talk"><a href="#session-8">Session 8</a></td>
     </tr>
 
     <tr style="height:30px;">
@@ -213,9 +215,9 @@ recently published results, and perspectives on emerging research directions.
 
     <tr style="height:90px;">
       <td class="time-col">11:00 - 12:30</td>
-      <td class="talk">3 talks</td>
-      <td class="talk">3 talks</td>
-      <td class="talk">3 talks</td>
+      <td class="talk"><a href="#session-1">Session 1</a></td>
+      <td class="talk"><a href="#session-5">Session 5</a></td>
+      <td class="talk"><a href="#session-9">Session 9</a></td>
     </tr>
 
     <tr style="height:90px;">
@@ -227,9 +229,9 @@ recently published results, and perspectives on emerging research directions.
 
     <tr style="height:90px;">
       <td class="time-col">14:00 - 15:30</td>
-      <td class="talk">3 talks</td>
-      <td class="talk">3 talks</td>
-      <td class="talk">3 talks</td>
+      <td class="talk"><a href="#session-2">Session 2</a></td>
+      <td class="talk"><a href="#session-6">Session 6</a></td>
+      <td class="talk"><a href="#session-10">Session 10</a></td>
     </tr>
 
     <tr style="height:30px;">
@@ -241,8 +243,8 @@ recently published results, and perspectives on emerging research directions.
 
     <tr style="height:30px;">
       <td class="time-col">16:00 - 16:30</td>
-      <td rowspan="2" class="talk">3 talks</td>
-      <td class="talk">1 talk</td>
+      <td rowspan="2" class="talk"><a href="#session-3">Session 3</a></td>
+      <td class="talk"><a href="#session-7">Session 7</a></td>
       <td class="empty"></td>
     </tr>
 
@@ -258,36 +260,122 @@ recently published results, and perspectives on emerging research directions.
 
 ---
 
-## Accepted Talks {#talks}
+## Detailed Program {#talks}
 
-- *What are quantum measurable spaces?* Tobias Fritz and Antonio Lorenzin.
-- *Resource-Aware Quantum Programming with General Recursion and Quantum Control.* Thomas Vinet, Kostia Chardonnet, Emmanuel Hainry, and Romain Péchoux.
-- *Basis-Sensitive Quantum Typing via Realizability.* Alejandro Díaz-Caro, Octavio Malherbe, and Rafael Romero.
-- *Quantum Control and General Recursion beyond the Unitary Case.* Kathleen Barsse, Romain Péchoux, and Simon Perdrix.
-- *An Algebraic Extension of Intuitionistic Linear Logic: the L-S-!-Calculus and Its Categorical Model.* Alejandro Díaz-Caro, Malena Ivnisky, and Octavio Malherbe.
-- *Quantum Coherence Spaces Revisited: A von Neumann (Co)Algebraic Approach.* Thea Li and Vladimir Zamdzhiev.
-- *Higher-order circuits.* Matt Wilson.
-- *Higher-order quantum objects are strong profunctors.* Matt Wilson and James Hefford.
-- *BV-Categories of Spacetime Interventions.* Matt Wilson and James Hefford.
-- *Static Resource Analysis of Hybrid Programs with Unbounded Loops.* Jad Issa, Christophe Chareton, and Romain Péchoux.
-- *Higher order maps in operational probabilistic theories.* Alessandro Bisio, Luca Apadula, Marco Erba, and Paolo Perinotti.
-- *Denotational semantics for stabiliser quantum programs.* Robert Booth and Cole Comfort.
-- *Graphical Algebraic Geometry: From Ideals and Varieties to Qudit ZH Completeness.* Dichuan Gao, Razin A. Shaikh, and Aleks Kissinger.
-- *Quantum Bayesian Networks: Compositionality and Typing via Linear Logic.* Rémi Di Guardia, Thomas Ehrhard, and Claudia Faggian.
-- *One rig to control them all.* Chris Heunen, Robin Kaarsgaard, and Louis Lemonnier.
-- *Towards a New Logic for Higher Order Quantum Computation.* Julien Lamiroy.
-- *Programming with Quantum-Controlled Quantum Channels.* Kengo Hirata and Takeshi Tsukada.
-- *Finite Observations, Infinite Behaviour: categorical semantics for stateful quantum processes.* Cole Comfort and Giovanni de Felice.
-- *Noncommutative models of quantum computing.* Bert Lindenhovius.
-- *Completeness Is Not Enough: Simpler Presentations and Minimality for Near-Clifford Circuit Fragments.* Colin Blake.
-- *A Complete and Natural Rule Set for Multi-Qudit Clifford Circuits in All Odd Prime Dimensions.* Xiaoning Bian, Sarah Meng Li, Neil J. Ross, John van de Wetering, and Yuming Zhao.
-- *Quantum instruments are a quantum effect monad.* Robert I. Booth, Dominik Leichtle, Alex Rice and Kim Worrall.
-- *Polynomial Spectral Semantics for Magic-State Distillation.* Dongho Lee.
-- *Quantum Programming in Polylogarithmic Time.* Florent Ferrari, Emmanuel Hainry, Romain Péchoux, and Mário Silva.
-- *Towards Quantum Inference on Higher-Order Bayesian Networks.* Jérôme Evrard, Claudia Faggian, Giacomo Gatti, and Gabriele Vanoni.
-- *Structure and geometry complete completeness.* Chris Heunen, Nicolas Heurtel, Robin Kaarsgaard, and Louis Lemonnier.
-- *Symbolic Verification of Quantum Protocols via Quantum Distributions -- Early Ideas.* Gabriele Tedeschi, Lorenzo Ceragioli, Giuseppe Lomurno, and Fabio Gadducci.
-- *Operator Spaces, Linear Logic and the Heisenberg-Schrödinger Duality of Quantum Theory.* Bert Lindenhovius and Vladimir Zamdzhiev.
+{% assign days = "Wednesday,Thursday,Friday" | split: "," %}
+
+{% for day in days %}
+
+<div class="program-day">
+  <h3>{{ day }}</h3>
+
+  {% for session in site.data.program.sessions %}
+    {% if session.day == day %}
+
+      <div class="session-card" id="{{ session.id }}">
+
+        <div class="session-header">
+          <div class="session-title">
+            {{ session.title }}
+          </div>
+
+          <div class="session-time">
+            {{ session.start }} -- {{ session.end }}
+          </div>
+        </div>
+
+        <div class="talk-list">
+
+          {% for talk in session.talks %}
+
+          <div class="talk-card" data-modal="modal-{{ talk.id }}">
+            <div class="talk-title">
+              {{ talk.title }}
+            </div>
+
+            <div class="talk-authors">
+              {{ talk.authors | join: ", " }}
+            </div>
+          </div>
+
+          {% endfor %}
+
+        </div>
+      </div>
+
+    {% endif %}
+  {% endfor %}
+
+</div>
+
+{% endfor %}
+
+
+{% for session in site.data.program.sessions %}
+  {% for talk in session.talks %}
+
+  <dialog class="abstract-modal" id="modal-{{ talk.id }}">
+    <div class="modal-content">
+
+      <button class="modal-close">&times;</button>
+
+      <div class="modal-title">
+        {{ talk.title }}
+      </div>
+
+      <div class="modal-authors">
+        {{ talk.authors | join: ", " }}
+      </div>
+
+      <div class="modal-abstract">
+        {{ talk.abstract | markdownify }}
+      </div>
+
+    </div>
+  </dialog>
+
+  {% endfor %}
+{% endfor %}
+
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+
+  document.querySelectorAll('.talk-card').forEach(card => {
+    card.addEventListener('click', () => {
+      const modalId = card.dataset.modal;
+      const modal = document.getElementById(modalId);
+
+      if (modal) {
+        modal.showModal();
+      }
+    });
+  });
+
+  document.querySelectorAll('.modal-close').forEach(button => {
+    button.addEventListener('click', () => {
+      button.closest('dialog').close();
+    });
+  });
+
+  document.querySelectorAll('dialog').forEach(dialog => {
+    dialog.addEventListener('click', (event) => {
+      const rect = dialog.getBoundingClientRect();
+      const inside = (
+        event.clientX >= rect.left &&
+        event.clientX <= rect.right &&
+        event.clientY >= rect.top &&
+        event.clientY <= rect.bottom
+      );
+
+      if (!inside) {
+        dialog.close();
+      }
+    });
+  });
+
+});
+</script>
+
 
 ---
 
