@@ -137,7 +137,7 @@ sessions:
         abstract: |
           We introduce *Graphical Algebraic Geometry* (GAG), a family of diagrammatic languages extending the Graphical Linear Algebra program. We construct several languages within this family and prove that they are universal and complete for the corresponding (co)span semantics of commutative algebras and affine varieties. This framework provides clear graphical representations of algebraic structures --- such as polynomials, ideals, and varieties --- enabling intuitive yet rigorous diagrammatic reasoning.
 
-          We showcase two practical viewpoints on GAG. First, we show that instances of counting constraint satisfaction problem (`#CSP`) are recast as rewrite problems of closed diagrams in GAG. This means that deciding rewriteability in GAG is #P-hard, and GAG can be viewed as a complete and compositional rewrite system for networks of polynomial constraints. Second, we characterize the qudit ZH calculus, a diagrammatic language for quantum computation, as an extension of Graphical Algebraic Geometry. This establishes the correspondence that *Graphical Algebraic Geometry is to the ZH calculus what Graphical Linear Algebra is to the ZX calculus*. Using this construction, we show that computing amplitudes in qudit ZH requires only a constant number of queries to a GAG oracle. Finally, using a catalysis-style argument, we leverage the completeness of GAG to solve the open problem of finding a complete set of rewrite rules for the Qudit ZH calculus.
+          We showcase two practical viewpoints on GAG. First, we show that instances of counting constraint satisfaction problem (#CSP) are recast as rewrite problems of closed diagrams in GAG. This means that deciding rewriteability in GAG is #P-hard, and GAG can be viewed as a complete and compositional rewrite system for networks of polynomial constraints. Second, we characterize the qudit ZH calculus, a diagrammatic language for quantum computation, as an extension of Graphical Algebraic Geometry. This establishes the correspondence that *Graphical Algebraic Geometry is to the ZH calculus what Graphical Linear Algebra is to the ZX calculus*. Using this construction, we show that computing amplitudes in qudit ZH requires only a constant number of queries to a GAG oracle. Finally, using a catalysis-style argument, we leverage the completeness of GAG to solve the open problem of finding a complete set of rewrite rules for the Qudit ZH calculus.
 
       - id: structure-and-geometry-complete-completeness
         title: "Structure and geometry complete completeness."
@@ -147,7 +147,7 @@ sessions:
           - Robin Kaarsgaard
           - Louis Lemonnier
         abstract: |
-          TODO
+          We propose a structural perspective on completeness for equational theories of quantum computing, observing that a large class of equations arise from ambient computational structure, notably that of rig categories. Once this structure is accounted for, the remaining equations are few and admit a clear geometric interpretation. We make this perspective concrete by giving a constructive and generic description of the equational theory for unitary matrices, explicating generic normal forms for unitaries, and use this to derive a recipe to obtain complete equational theories for unitaries with any generator, as long as we have completeness on 2-dimensional systems and enough structure.
 
   - id: session-5
     title: Session 5
@@ -162,7 +162,7 @@ sessions:
           - Bert Lindenhovius
           - Vladimir Zamdzhiev
         abstract: |
-          TODO
+          We show that the category OS of operator spaces, with complete contractions as morphisms, is locally countably presentable and a model of Intuitionistic Linear Logic in the sense of Lafont. We then describe a model of Classical Linear Logic, based on OS, whose duality is compatible with the Heisenberg-Schrödinger duality of quantum theory. We explore connections between the Haagerup tensor product on OS and BV-logic and we also show that OS provides a good setting for studying pure state and mixed state quantum information, the interaction between the two, and even higher-order quantum maps such as the quantum switch. This work was published in LICS’25 [1].  A preprint with many omitted proofs is available [2] and we also have a detailed companion paper [3] that provides a proof of the local presentability of OS and proofs that establish other important categorical properties of OS.
 
       - id: quantum-coherence-spaces-revisited
         title: "Quantum Coherence Spaces Revisited: A von Neumann (Co)Algebraic Approach."
@@ -170,14 +170,14 @@ sessions:
           - Thea Li
           - Vladimir Zamdzhiev
         abstract: |
-          TODO
+          We describe a categorical model of MALL (Multiplicative Additive Linear Logic) inspired by the Heisenberg-Schrödinger duality of finite-dimensional quantum theory. Proofs of formulas with positive logical polarity correspond to CPTP (completely positive trace-preserving) maps in our model, i.e. the quantum operations in the Schrödinger picture, whereas proofs of formulas with negative logical polarity correspond to CPU (completely positive unital) maps, i.e. the quantum operations in the Heisenberg picture. The mathematical development is based on noncommutative geometry and finite-dimensional von Neumann (co)algebras, which can be defined as special kinds of (co)monoid objects internal to the category of finite-dimensional operator spaces.
 
       - id: noncommutative-models-quantum-computing
         title: "Noncommutative models of quantum computing."
         authors:
           - Bert Lindenhovius
         abstract: |
-          TODO
+          We present a different vision on the foundations of quantum computing, which we believe should be based on the principles of noncommutative geometry. This requires a higher level of abstraction than is common in quantum computing. In particular, working with infinite dimensional systems is necessary. We argue why this level of abstraction is necessary to make the next step in quantum computing, and give an overview of applications of noncommutative structures in quantum information science and in the denotational semantics of quantum programming languages and logics in particular.
 
   - id: session-6
     title: Session 6
@@ -193,7 +193,7 @@ sessions:
           - Thomas Ehrhard
           - Claudia Faggian
         abstract: |
-          TODO
+          Quantum Bayesian networks [Henson, Lal, and Pusey, 2014] provide a mathematical formalism to describe causal relations, to analyse correlations, and to predict the probabilities of measurement outcomes, in systems involving both classical and quantum data. They generalize Pearl’s Bayesian networks [Pearl, 1986]—prominent graphical models for classical probabilistic reasoning and inference.  This extended abstract reports on work [Di Guardia, Ehrhard, and Faggian, 2026] which brings compositional principles and a typing discipline into this setting. A key feature of our compositional semantics is that when all causes are classical, it coincides with the standard factor-based semantics of Bayesian networks, while in the purely quantum case it reduces to tensor networks. We then propose a typed formalism based on linear logic proof-nets, where types ensure well-behaved composition of systems.
 
       - id: quantum-inference-higher-order-bayesian-networks
         title: "Towards Quantum Inference on Higher-Order Bayesian Networks."
@@ -203,7 +203,7 @@ sessions:
           - Giacomo Gatti
           - Gabriele Vanoni
         abstract: |
-          TODO
+          Quantum computation provides a quadratic speedup for the inference process in Bayesian networks. We propose an effective methodology to compile functional programs to quantum circuits, via Bayesian networks. While in this talk we will mainly deal with the first order fragment, our technique can scale to the higher-order case, covering languages featuring recursion, and complex evaluation mechanisms, such as call-by-push-value. The main technical ingredient is the introduction of a parallel version of the Krivine Abstract Machine, that is able to build the Bayesian network while evaluating the program. Moreover, we propose some optimizations that reduce the size of the quantum circuit produced as output by the machine.
 
       - id: symbolic-verification-quantum-protocols
         title: "Symbolic Verification of Quantum Protocols via Quantum Distributions -- Early Ideas."
@@ -213,7 +213,7 @@ sessions:
           - Giuseppe Lomurno
           - Fabio Gadducci
         abstract: |
-          TODO
+          The development of quantum communication protocols sparked the interest in quantum extensions of process calculi. The prominent approaches, however, are still based on probabilistic models, which are inadequate for the quantum case, as they do not capture the observational limitations of quantum theory.  In Physics, probabilistic quantum systems are not represented with probabilities, but with density operators.  By lifting this concept to the Computer Science setting, we introduce Operator Distributions: they employ density operators as weights, just like probability distributions use real numbers.  We give semantics to quantum protocols in a natural way, as an LTS of operator distributions, guaranteeing that only physically accessible information about the systems are represented.  Moreover, these ""quantum"" distributions pave the way for symbolic verification of protocols whose behaviour depends on an unknown initial state: instead of considering infinitely-many LTSs, one for each possible initialization, we can build a single symbolic LTS and prove properties on it.
 
   - id: session-7
     title: Session 7
