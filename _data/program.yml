@@ -46,7 +46,9 @@ sessions:
           - Malena Ivnisky
           - Octavio Malherbe
         abstract: |
-          TODO
+          We introduce the L-S-!-calculus, a linear lambda-calculus extended with scalar multiplication and term addition, that acts as a proof language for intuitionistic linear logic (ILL). These algebraic operations enable the direct expression of linearity at the syntactic level, a property not typically available in standard proof-term calculi.  Building upon previous work, we develop the L-S-!-calculus as an extension of the L-S-calculus with the ! modality. We prove key meta-theoretical properties—subject reduction, confluence, strong normalisation, and an introduction property—as well as preserve the expressiveness of the original L-S-calculus, including the encoding of vectors and matrices, and the correspondence between proof-terms and linear functions. A denotational semantics is provided in the framework of linear categories with biproducts, ensuring a sound and adequate interpretation of the calculus. This work is part of a broader programme aiming to build a quantum programming language grounded in linear logic. 
+
+          This is an extended abstract of arXiv:2504.12128.
 
       - id: basis-sensitive-quantum-typing
         title: "Basis-Sensitive Quantum Typing via Realizability."
@@ -55,14 +57,20 @@ sessions:
           - Octavio Malherbe
           - Rafael Romero
         abstract: |
-          TODO
+          We present lambdaB, a quantum‐control lambda‐calculus that refines previous basis-sensitive systems by allowing abstractions to be expressed with respect to arbitrary---possibly entangled---bases.  Each abstraction and let-construct is annotated with a basis, and a new basis-dependent substitution governs the decomposition of value distributions.  These extensions preserve the expressive power of earlier calculi while enabling finer reasoning about programs under basis changes.  A realisability semantics connects the reduction system with the type system, yielding a direct characterisation of unitary operators and ensuring safety by construction.  From this semantics we derive a validated family of typing rules, forming the foundation of a type-safe quantum programming language.  We illustrate the expressive benefits of lambdaB through examples such as Deutsch’s algorithm and quantum teleportation, where basis-aware typing captures classical determinism and deferred-measurement behaviour within a uniform framework.
+
+          Based on the submitted paper  arXiv:2510.18542v1.
 
       - id: new-logic-higher-order-quantum-computation
         title: "Towards a New Logic for Higher Order Quantum Computation."
         authors:
           - Julien Lamiroy
         abstract: |
-          TODO
+          The standard circuit model used to describe quantum operations is well understood, but is unable to represent a class of higher-order operations that feature quantum control and an indefinite causal ordering of higher order input. In particular, the quantum switch, which orders two unitary operations depending on the value of a control qubit, has been realized physically.
+
+          Alongside this, notions of control flow are well studied in proof theory, in particular using Linear Logic. LL also presents multiple features that make it an attractive starting point to study quantum computing from a logical angle, such as restricted duplication and discarding of formulae.
+
+          In this work in progress, we introduce a modified version of Intuitionistic Multiplicative Additive Linear Logic alongside a semantic for it that represents higher order computation. This logic presents cut elimination, and proofs evaluating to multiple known higher order processes, as well as universality for unitaries.
 
   - id: session-3
     title: Session 3
@@ -79,15 +87,7 @@ sessions:
           - Romain Péchoux
           - Mário Silva
         abstract: |
-          TODO
-
-      - id: denotational-semantics-stabiliser-programs
-        title: "Denotational semantics for stabiliser quantum programs."
-        authors:
-          - Robert Booth
-          - Cole Comfort
-        abstract: |
-          TODO
+          Polylogarithmic time delineates a relevant notion of feasibility on several classical computational models such as Boolean circuits or parallel random access machines. As far as the quantum paradigm is concerned, this notion yields the complexity class FBQPOLYLOG of functions approximable in polylogarithmic time with a quantum random access Turing machine. We introduce a quantum programming language with first-order recursive procedures, which provides the first programming language-based characterization of FBQPOLYLOG. Each program computes a function in FBQPOLYLOG (soundness) and, conversely, each function of this complexity class is computed by a program (completeness). We also provide a compilation strategy from programs to uniform families of quantum circuits of polylogarithmic depth and polynomial size, whose set of computed functions is known as QNC, and recover the well-known separation result FBQPOLYLOG ⊊ QNC.
 
       - id: static-resource-analysis-hybrid-programs
         title: "Static Resource Analysis of Hybrid Programs with Unbounded Loops."
@@ -96,7 +96,17 @@ sessions:
           - Christophe Chareton
           - Romain Péchoux
         abstract: |
-          TODO
+          While quantum hardware remains limited, hybrid quantum-classical algorithms with complex control structures, including unbounded loops, are emerging, posing new challenges for program analysis: the accurate estimation of resource consumption of a given program is needed.  In this work, we answer this challenge with the first static analysis solution for reasoning about the resources --- termination or cost --- of hybrid quantum programs with unbounded loops. Towards that end, we introduce hybrid path-sums, a symbolic representation of possible executions of a quantum program.  A generic strategy for determining termination and expected resource consumption via loop invariants is also proposed. Finally, a prototype of this solution is implemented in Haskell.  This work is the first step toward the design of a complete static resource analysis tool for hybrid quantum programs with unbounded loops, essential for the development of real-world quantum computing.  This extended abstract illustrates fully developed results without expanding on the technicalities.
+
+      - id: denotational-semantics-stabiliser-programs
+        title: "Denotational semantics for stabiliser quantum programs."
+        authors:
+          - Robert Booth
+          - Cole Comfort
+        abstract: |
+          The stabiliser fragment of quantum theory is a foundational building block for quantum error correction, and hence for the fault-tolerant compilation of quantum programs. In this article, we develop a sound, universal, and complete denotational semantics for stabiliser operations, including measurement, classically controlled Pauli operators, and affine classical computation; supporting an explicit treatment of quantum error-correcting codes. We interpret stabiliser operations as affine relations over finite fields, yielding a semantics that reflects the algebraic structure underlying stabiliser quantum error correction.  Because stabiliser quantum mechanics has a well-behaved algebraic structure, our relational semantics is conceptually transparent and computationally tractable when compared to standard denotational models for general quantum programs.
+
+          We demonstrate the resulting semantics by describing a small, low-level assembly language for stabiliser programs with fully-abstract denotational semantics.
 
   - id: session-4
     title: Session 4
@@ -114,7 +124,9 @@ sessions:
           - John van de Wetering
           - Yuming Zhao
         abstract: |
-          TODO
+          We present a complete set of rewrite rules for multi-qudit Clifford circuits, where qudit denotes a d-level quantum system with d an odd prime. Completeness means that any two Clifford circuits representing the same linear map can be transformed into each other using these rules. In total, there are 19 Clifford relations, each involving at most three qudits and admitting an intuitive interpretation.
+
+          Our approach leverages the isomorphism between the symplectic group Sp(2n,Zd) and the quotient of the Clifford group by the Pauli group. We first derive a complete set of symplectic relations for Sp(2n, Zd), and then lift them to Clifford relations by incorporating Pauli corrections. To do this, we introduce a symplectic normal form that captures the stabiliser tableau of a Clifford operator and is unique up to Pauli correction. This simplification enables a streamlined derivation of a complete set of 66 relations, which we further compress to 18 symplectic relations. Our computations in Sp(2n,Zd) are formalised in the Agda proof assistant, providing a machine-verified proof of correctness.
 
       - id: graphical-algebraic-geometry
         title: "Graphical Algebraic Geometry: From Ideals and Varieties to Qudit ZH Completeness."
@@ -123,7 +135,9 @@ sessions:
           - Razin A. Shaikh
           - Aleks Kissinger
         abstract: |
-          TODO
+          We introduce *Graphical Algebraic Geometry* (GAG), a family of diagrammatic languages extending the Graphical Linear Algebra program. We construct several languages within this family and prove that they are universal and complete for the corresponding (co)span semantics of commutative algebras and affine varieties. This framework provides clear graphical representations of algebraic structures --- such as polynomials, ideals, and varieties --- enabling intuitive yet rigorous diagrammatic reasoning.
+
+          We showcase two practical viewpoints on GAG. First, we show that instances of counting constraint satisfaction problem (`#CSP`) are recast as rewrite problems of closed diagrams in GAG. This means that deciding rewriteability in GAG is #P-hard, and GAG can be viewed as a complete and compositional rewrite system for networks of polynomial constraints. Second, we characterize the qudit ZH calculus, a diagrammatic language for quantum computation, as an extension of Graphical Algebraic Geometry. This establishes the correspondence that *Graphical Algebraic Geometry is to the ZH calculus what Graphical Linear Algebra is to the ZX calculus*. Using this construction, we show that computing amplitudes in qudit ZH requires only a constant number of queries to a GAG oracle. Finally, using a catalysis-style argument, we leverage the completeness of GAG to solve the open problem of finding a complete set of rewrite rules for the Qudit ZH calculus.
 
       - id: structure-and-geometry-complete-completeness
         title: "Structure and geometry complete completeness."
