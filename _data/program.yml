@@ -1,0 +1,313 @@
+sessions:
+  - id: session-1
+    title: Session 1
+    day: Wednesday
+    date: 2026-06-17
+    start: "11:00"
+    end: "12:30"
+    talks:
+      - id: one-rig-to-control-them-all
+        title: "One rig to control them all."
+        authors:
+          - Chris Heunen
+          - Robin Kaarsgaard
+          - Louis Lemonnier
+        abstract: |
+          TODO
+
+      - id: bv-categories-of-spacetime-interventions
+        title: "BV-Categories of Spacetime Interventions."
+        authors:
+          - Matt Wilson
+          - James Hefford
+        abstract: |
+          TODO
+
+      - id: completeness-is-not-enough
+        title: "Completeness Is Not Enough: Simpler Presentations and Minimality for Near-Clifford Circuit Fragments."
+        authors:
+          - Colin Blake
+        abstract: |
+          TODO
+
+  - id: session-2
+    title: Session 2
+    day: Wednesday
+    date: 2026-06-17
+    start: "14:00"
+    end: "15:30"
+    talks:
+      - id: l-s-bang-calculus
+        title: "An Algebraic Extension of Intuitionistic Linear Logic: the L-S-!-Calculus and Its Categorical Model."
+        authors:
+          - Alejandro Díaz-Caro
+          - Malena Ivnisky
+          - Octavio Malherbe
+        abstract: |
+          TODO
+
+      - id: basis-sensitive-quantum-typing
+        title: "Basis-Sensitive Quantum Typing via Realizability."
+        authors:
+          - Alejandro Díaz-Caro
+          - Octavio Malherbe
+          - Rafael Romero
+        abstract: |
+          TODO
+
+      - id: new-logic-higher-order-quantum-computation
+        title: "Towards a New Logic for Higher Order Quantum Computation."
+        authors:
+          - Julien Lamiroy
+        abstract: |
+          TODO
+
+  - id: session-3
+    title: Session 3
+    day: Wednesday
+    date: 2026-06-17
+    start: "16:00"
+    end: "17:30"
+    talks:
+      - id: quantum-programming-polylogarithmic-time
+        title: "Quantum Programming in Polylogarithmic Time."
+        authors:
+          - Florent Ferrari
+          - Emmanuel Hainry
+          - Romain Péchoux
+          - Mário Silva
+        abstract: |
+          TODO
+
+      - id: denotational-semantics-stabiliser-programs
+        title: "Denotational semantics for stabiliser quantum programs."
+        authors:
+          - Robert Booth
+          - Cole Comfort
+        abstract: |
+          TODO
+
+      - id: static-resource-analysis-hybrid-programs
+        title: "Static Resource Analysis of Hybrid Programs with Unbounded Loops."
+        authors:
+          - Jad Issa
+          - Christophe Chareton
+          - Romain Péchoux
+        abstract: |
+          TODO
+
+  - id: session-4
+    title: Session 4
+    day: Thursday
+    date: 2026-06-18
+    start: "09:00"
+    end: "10:30"
+    talks:
+      - id: complete-natural-rule-set-multi-qudit
+        title: "A Complete and Natural Rule Set for Multi-Qudit Clifford Circuits in All Odd Prime Dimensions."
+        authors:
+          - Xiaoning Bian
+          - Sarah Meng Li
+          - Neil J. Ross
+          - John van de Wetering
+          - Yuming Zhao
+        abstract: |
+          TODO
+
+      - id: graphical-algebraic-geometry
+        title: "Graphical Algebraic Geometry: From Ideals and Varieties to Qudit ZH Completeness."
+        authors:
+          - Dichuan Gao
+          - Razin A. Shaikh
+          - Aleks Kissinger
+        abstract: |
+          TODO
+
+      - id: structure-and-geometry-complete-completeness
+        title: "Structure and geometry complete completeness."
+        authors:
+          - Chris Heunen
+          - Nicolas Heurtel
+          - Robin Kaarsgaard
+          - Louis Lemonnier
+        abstract: |
+          TODO
+
+  - id: session-5
+    title: Session 5
+    day: Thursday
+    date: 2026-06-18
+    start: "11:00"
+    end: "12:30"
+    talks:
+      - id: operator-spaces-linear-logic
+        title: "Operator Spaces, Linear Logic and the Heisenberg-Schrödinger Duality of Quantum Theory."
+        authors:
+          - Bert Lindenhovius
+          - Vladimir Zamdzhiev
+        abstract: |
+          TODO
+
+      - id: quantum-coherence-spaces-revisited
+        title: "Quantum Coherence Spaces Revisited: A von Neumann (Co)Algebraic Approach."
+        authors:
+          - Thea Li
+          - Vladimir Zamdzhiev
+        abstract: |
+          TODO
+
+      - id: noncommutative-models-quantum-computing
+        title: "Noncommutative models of quantum computing."
+        authors:
+          - Bert Lindenhovius
+        abstract: |
+          TODO
+
+  - id: session-6
+    title: Session 6
+    day: Thursday
+    date: 2026-06-18
+    start: "14:00"
+    end: "15:30"
+    talks:
+      - id: quantum-bayesian-networks
+        title: "Quantum Bayesian Networks: Compositionality and Typing via Linear Logic."
+        authors:
+          - Rémi Di Guardia
+          - Thomas Ehrhard
+          - Claudia Faggian
+        abstract: |
+          TODO
+
+      - id: quantum-inference-higher-order-bayesian-networks
+        title: "Towards Quantum Inference on Higher-Order Bayesian Networks."
+        authors:
+          - Jérôme Evrard
+          - Claudia Faggian
+          - Giacomo Gatti
+          - Gabriele Vanoni
+        abstract: |
+          TODO
+
+      - id: symbolic-verification-quantum-protocols
+        title: "Symbolic Verification of Quantum Protocols via Quantum Distributions -- Early Ideas."
+        authors:
+          - Gabriele Tedeschi
+          - Lorenzo Ceragioli
+          - Giuseppe Lomurno
+          - Fabio Gadducci
+        abstract: |
+          TODO
+
+  - id: session-7
+    title: Session 7
+    day: Thursday
+    date: 2026-06-18
+    start: "16:00"
+    end: "16:30"
+    talks:
+      - id: quantum-measurable-spaces
+        title: "What are quantum measurable spaces?"
+        authors:
+          - Tobias Fritz
+          - Antonio Lorenzin
+        abstract: |
+          TODO
+
+  - id: session-8
+    title: Session 8
+    day: Friday
+    date: 2026-06-19
+    start: "09:00"
+    end: "10:30"
+    talks:
+      - id: quantum-control-general-recursion
+        title: "Quantum Control and General Recursion beyond the Unitary Case."
+        authors:
+          - Kathleen Barsse
+          - Romain Péchoux
+          - Simon Perdrix
+        abstract: |
+          TODO
+
+      - id: programming-quantum-controlled-channels
+        title: "Programming with Quantum-Controlled Quantum Channels."
+        authors:
+          - Kengo Hirata
+          - Takeshi Tsukada
+        abstract: |
+          TODO
+
+      - id: resource-aware-quantum-programming
+        title: "Resource-Aware Quantum Programming with General Recursion and Quantum Control."
+        authors:
+          - Thomas Vinet
+          - Kostia Chardonnet
+          - Emmanuel Hainry
+          - Romain Péchoux
+        abstract: |
+          TODO
+
+  - id: session-9
+    title: Session 9
+    day: Friday
+    date: 2026-06-19
+    start: "11:00"
+    end: "12:30"
+    talks:
+      - id: quantum-instruments-effect-monad
+        title: "Quantum instruments are a quantum effect monad."
+        authors:
+          - Robert I. Booth
+          - Dominik Leichtle
+          - Alex Rice
+          - Kim Worrall
+        abstract: |
+          TODO
+
+      - id: polynomial-spectral-semantics
+        title: "Polynomial Spectral Semantics for Magic-State Distillation."
+        authors:
+          - Dongho Lee
+        abstract: |
+          TODO
+
+      - id: finite-observations-infinite-behaviour
+        title: "Finite Observations, Infinite Behaviour: categorical semantics for stateful quantum processes."
+        authors:
+          - Cole Comfort
+          - Giovanni de Felice
+        abstract: |
+          TODO
+
+  - id: session-10
+    title: Session 10
+    day: Friday
+    date: 2026-06-19
+    start: "14:00"
+    end: "15:30"
+    talks:
+      - id: higher-order-circuits
+        title: "Higher-order circuits."
+        authors:
+          - Matt Wilson
+        abstract: |
+          TODO
+
+      - id: higher-order-maps-opt
+        title: "Higher order maps in operational probabilistic theories."
+        authors:
+          - Alessandro Bisio
+          - Luca Apadula
+          - Marco Erba
+          - Paolo Perinotti
+        abstract: |
+          TODO
+
+      - id: higher-order-quantum-objects
+        title: "Higher-order quantum objects are strong profunctors."
+        authors:
+          - Matt Wilson
+          - James Hefford
+        abstract: |
+          TODO
