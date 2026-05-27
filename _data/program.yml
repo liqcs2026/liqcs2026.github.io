@@ -266,7 +266,7 @@ sessions:
           - Kathleen Barsse
           - Romain Péchoux
           - Simon Perdrix
-        pdfs: "/assets/pdfs/LIQCS_2026_extended_abstract_6.pdf"
+        pdf: "/assets/pdfs/LIQCS_2026_extended_abstract_6.pdf"
         abstract: |
           Coherent control, aka quantum control, is a central concept in quantum computing that is attracting increasing attention from both the quantum foundations and quantum software communities. Defining coherent control in the presence of recursion and measurement has long been known to be a major challenge. In particular, no-go results have been established for standard semantical domains like completely positive maps. We address this problem by introducing the first quantum programming language with recursion that allows for the coherent control of arbitrary quantum operations. We equip this language with both an operational  and a denotational semantics that we prove to be adequate. To design these semantics, we  show that combining coherent control, recursion, and measurement crucially requires describing the evolution of  subprograms in the absence of input. To address this, the operational semantics takes into account a default evolution branch, while the denotational semantics uses the concept of coherent quantum operation, based on vacuum extensions. We strengthen the validity of our approach by developing an observational equivalence: two programs are equivalent if their probability of termination is the same in any context. The denotational semantics is shown to be fully abstract with respect to this observational equivalence.
 
@@ -312,7 +312,7 @@ sessions:
           - Dominik Leichtle
           - Alex Rice
           - Kim Worrall
-        pdfs: "/assets/pdfs/LIQCS_2026_extended_abstract_27.pdf"
+        pdf: "/assets/pdfs/LIQCS_2026_extended_abstract_27.pdf"
         abstract: |
           In this work, we aim to give hybrid quantum computation a concrete denotational semantics by modelling it as a computational effect added to a purely classical language.  To this end, we introduce the finite quantum instruments monad, which can be understood as a generalisation to quantum evolutions of the finite distribution monad, cleanly separating the classical and quantum parts of a program's semantics. Going beyond the case of finitely supported instruments, we sketch ongoing work in extending it to measurable spaces, in analogy with the Giry monad, and to directed-complete partial orders (DCPOs) to allow modelling of programs that may diverge, in analogy with the probabilistic powerdomain monad.
 
@@ -320,7 +320,7 @@ sessions:
         title: "Polynomial Spectral Semantics for Magic-State Distillation."
         authors:
           - Dongho Lee
-        pdfs: "/assets/pdfs/LIQCS_2026_extended_abstract_28.pdf"
+        pdf: "/assets/pdfs/LIQCS_2026_extended_abstract_28.pdf"
         abstract: |
           We develop a semantic framework for approximate quantum computation based on spectral transformations of quantum states. We introduce spectral quantum spaces, extending projective quantum state spaces by incorporating effects generated via functional calculus in the spectrum of observables and closed under convex combinations and multiplication of commuting effects. Building on this, we define polynomial spectral signal-state relations, where observable evaluations of parameterized states are polynomial functions of the parameters.
 
@@ -331,7 +331,7 @@ sessions:
         authors:
           - Cole Comfort
           - Giovanni de Felice
-        pdfs: "/assets/pdfs/LIQCS_2026_extended_abstract_22.pdf"
+        pdf: "/assets/pdfs/LIQCS_2026_extended_abstract_22.pdf"
         abstract: |
           Time-dependent processes are often described in terms of machines with an internal state which is updated as time evolves.  However, from the perspective of an external observer, two such processes can produce the same behaviour, even when their internal states differ.  We introduce a semantic construction which equates processes when they exhibit the same infinite external behaviour, as determined by all finite observations.  Our construction is defined over any preorder-enriched monoidal category with a suitable notion of discarding.  This provides a unified framework for partial, non-deterministic, probabilistic, and quantum processes evolving in space and time.
 
@@ -348,7 +348,7 @@ sessions:
         title: "Higher-order circuits."
         authors:
           - Matt Wilson
-        pdfs: "/assets/pdfs/LIQCS_2026_extended_abstract_9.pdf"
+        pdf: "/assets/pdfs/LIQCS_2026_extended_abstract_9.pdf"
         abstract: |
           We write down a series of basic laws for (strict) higher-order circuit diagrams. More precisely, we define higher-order circuit theories in terms of: (a) nesting, (b) temporal and spatial composition, and (c) equivalence between lower-order bipartite processes and higher-order bipartite states. In category-theoretic terms, these laws are expressed using enrichment and cotensors in symmetric polycategories, along with a frobenius-like coherence between them. We describe how these laws capture the salient features of higher-order quantum theory, and discover an upper bound for higher-order circuits: any higher-order circuit theory embeds into the theory of strong profunctors.
 
@@ -359,7 +359,7 @@ sessions:
           - Luca Apadula
           - Marco Erba
           - Paolo Perinotti
-        pdfs: "/assets/pdfs/LIQCS_2026_extended_abstract_14.pdf"
+        pdf: "/assets/pdfs/LIQCS_2026_extended_abstract_14.pdf"
         abstract: |
           Sequential and concurrent models of classical or quantum computation, such as Turing machines and circuits, describe computation as state changes over time. However, models like the Lambda calculus use higher-order operations on functions and are not immediately reducible to a sequence of state transformations. Physically, this corresponds to considering transformations of transformations, forming the basis of Higher-Order Quantum Theory. Here, quantum channels become inputs, enabling “second-order” gates that map channels to channels. This extends recursively, creating a hierarchy of higher-order maps (HOMs).  We provide an axiomatic framework, analogous to Kraus’ axiomatization of quantum operations, in which we characterize the admissible HOMs. Using the Choi isomorphism, we show that admissible maps lie within a cone of positive operators constrained by linear conditions [1].  Within the hierarchy, some HOMs can be realized as quantum circuits with open slots, while others (e.g., the quantum switch) exhibit an indefinite causal order. We prove a result linking a map’s functional description (i.e., its type) to its causal structure via no-signaling relations, based on the compositional structure of HOMs [2].  We then present a generalization of the higher-order framework to general physical theories, as described by the formalism of Operational Probabilistic Theories (OPTs) [3].  The starting point is to enrich an OPT with the notion of “contraction.” A contraction is a transformation resembling a categorical trace, which extends the compositional structure of the OPT beyond the sequential one and allows us to define the hierarchy of HOMs. We prove that a (convex) OPT admits a contraction if and only if it is endowed with the so-called Choi states and Choi effects.  Therefore, within our framework, the higher-order functionality of an OPT is not an extrinsic element but is fully determined by its native compositional structure.
 
@@ -372,6 +372,6 @@ sessions:
         authors:
           - Matt Wilson
           - James Hefford
-        pdfs: "/assets/pdfs/LIQCS_2026_extended_abstract_10.pdf"
+        pdf: "/assets/pdfs/LIQCS_2026_extended_abstract_10.pdf"
         abstract: |
           We explore the sense in which the existing constructions for higher-order maps on quantum theory based on causality constraints and compositionality constraints respectively, coincide. More precisely, we construct a functor F : Caus(C) → StProf(C1) from higher-order causal categories to the category of strong profunctors over first-order causal processes that is lax-lax duoidal, full, faithful, and strongly closed whenever C is additive. When C = CP this embedding is furthermore strong on the sequencer for duoidal categories, expressing the possibility to interpret one-way signalling (but not general non-signalling) constraints in terms of the coend calculus for profunctors.  We conclude that in so far as compositional constraints can be used to express causality constraints, the profunctorial approach generalises higher-order quantum theory to a construction over general symmetric monoidal categories.
