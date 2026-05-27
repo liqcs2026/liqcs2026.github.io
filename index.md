@@ -4,7 +4,7 @@ title: LIQCS 2026
 subtitle: "1st International Workshop on Logic in Quantum Computer Science"
 ---
 
-<link rel="stylesheet" href="/assets/css/program.css?v=2">
+<link rel="stylesheet" href="/assets/css/program.css?v=3">
 
 # LIQCS 2026  
 **Logic in Quantum Computer Science**  
@@ -326,6 +326,14 @@ recently published results, and perspectives on emerging research directions.
       <div class="modal-authors">
         {{ talk.authors | join: ", " }}
       </div>
+
+      {% if talk.pdf %}
+      <div class="modal-pdf">
+        <a href="{{ talk.pdf }}" target="_blank">
+           📄 Download extended abstract
+        </a>
+      </div>
+      {% endif %}
 
       <div class="modal-abstract">
         {{ talk.abstract | markdownify }}
