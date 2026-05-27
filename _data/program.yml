@@ -190,7 +190,7 @@ sessions:
         title: "Noncommutative models of quantum computing."
         authors:
           - Bert Lindenhovius
-        pdf: "/assets/pdfs/LIQCS_2026_extended_abstract_23"
+        pdf: "/assets/pdfs/LIQCS_2026_extended_abstract_23.pdf"
         abstract: |
           We present a different vision on the foundations of quantum computing, which we believe should be based on the principles of noncommutative geometry. This requires a higher level of abstraction than is common in quantum computing. In particular, working with infinite dimensional systems is necessary. We argue why this level of abstraction is necessary to make the next step in quantum computing, and give an overview of applications of noncommutative structures in quantum information science and in the denotational semantics of quantum programming languages and logics in particular.
 
@@ -218,7 +218,7 @@ sessions:
           - Claudia Faggian
           - Giacomo Gatti
           - Gabriele Vanoni
-        pdf: "/assets/pdfs/LIQCS_2026_extended_abstract_30"
+        pdf: "/assets/pdfs/LIQCS_2026_extended_abstract_30.pdf"
         abstract: |
           Quantum computation provides a quadratic speedup for the inference process in Bayesian networks. We propose an effective methodology to compile functional programs to quantum circuits, via Bayesian networks. While in this talk we will mainly deal with the first order fragment, our technique can scale to the higher-order case, covering languages featuring recursion, and complex evaluation mechanisms, such as call-by-push-value. The main technical ingredient is the introduction of a parallel version of the Krivine Abstract Machine, that is able to build the Bayesian network while evaluating the program. Moreover, we propose some optimizations that reduce the size of the quantum circuit produced as output by the machine.
 
@@ -229,7 +229,7 @@ sessions:
           - Lorenzo Ceragioli
           - Giuseppe Lomurno
           - Fabio Gadducci
-        pdf: "/assets/pdfs/LIQCS_2026_extended_abstract_32"
+        pdf: "/assets/pdfs/LIQCS_2026_extended_abstract_32.pdf"
         abstract: |
           The development of quantum communication protocols sparked the interest in quantum extensions of process calculi. The prominent approaches, however, are still based on probabilistic models, which are inadequate for the quantum case, as they do not capture the observational limitations of quantum theory.  In Physics, probabilistic quantum systems are not represented with probabilities, but with density operators.  By lifting this concept to the Computer Science setting, we introduce Operator Distributions: they employ density operators as weights, just like probability distributions use real numbers.  We give semantics to quantum protocols in a natural way, as an LTS of operator distributions, guaranteeing that only physically accessible information about the systems are represented.  Moreover, these "quantum" distributions pave the way for symbolic verification of protocols whose behaviour depends on an unknown initial state: instead of considering infinitely-many LTSs, one for each possible initialization, we can build a single symbolic LTS and prove properties on it.
 
@@ -245,7 +245,7 @@ sessions:
         authors:
           - Tobias Fritz
           - Antonio Lorenzin
-        pdf: "/assets/pdfs/LIQCS_2026_extended_abstract_1"
+        pdf: "/assets/pdfs/LIQCS_2026_extended_abstract_1.pdf"
         abstract: |
           In quantum probability, the category of C*-algebras and completely positive unital (cpu) maps is a well-established setting. However, its classical side, given by commutative C*-algebras, does not contain all regular conditional probabilities, a central concept in classical probability.  This shortcoming is due to the inherent topological nature of C*-algebras, which ties them to continuous rather than measurable structures.
 
@@ -266,7 +266,7 @@ sessions:
           - Kathleen Barsse
           - Romain Péchoux
           - Simon Perdrix
-        pdfs: "/assets/pdfs/LIQCS_2026_extended_abstract_6"
+        pdfs: "/assets/pdfs/LIQCS_2026_extended_abstract_6.pdf"
         abstract: |
           Coherent control, aka quantum control, is a central concept in quantum computing that is attracting increasing attention from both the quantum foundations and quantum software communities. Defining coherent control in the presence of recursion and measurement has long been known to be a major challenge. In particular, no-go results have been established for standard semantical domains like completely positive maps. We address this problem by introducing the first quantum programming language with recursion that allows for the coherent control of arbitrary quantum operations. We equip this language with both an operational  and a denotational semantics that we prove to be adequate. To design these semantics, we  show that combining coherent control, recursion, and measurement crucially requires describing the evolution of  subprograms in the absence of input. To address this, the operational semantics takes into account a default evolution branch, while the denotational semantics uses the concept of coherent quantum operation, based on vacuum extensions. We strengthen the validity of our approach by developing an observational equivalence: two programs are equivalent if their probability of termination is the same in any context. The denotational semantics is shown to be fully abstract with respect to this observational equivalence.
 
@@ -331,7 +331,7 @@ sessions:
         authors:
           - Cole Comfort
           - Giovanni de Felice
-        pdfs: "/assets/pdfs/LIQCS_2026_extended_abstract_22"
+        pdfs: "/assets/pdfs/LIQCS_2026_extended_abstract_22.pdf"
         abstract: |
           Time-dependent processes are often described in terms of machines with an internal state which is updated as time evolves.  However, from the perspective of an external observer, two such processes can produce the same behaviour, even when their internal states differ.  We introduce a semantic construction which equates processes when they exhibit the same infinite external behaviour, as determined by all finite observations.  Our construction is defined over any preorder-enriched monoidal category with a suitable notion of discarding.  This provides a unified framework for partial, non-deterministic, probabilistic, and quantum processes evolving in space and time.
 
@@ -359,7 +359,7 @@ sessions:
           - Luca Apadula
           - Marco Erba
           - Paolo Perinotti
-        pdfs: "/assets/pdfs/LIQCS_2026_extended_abstract_14"
+        pdfs: "/assets/pdfs/LIQCS_2026_extended_abstract_14.pdf"
         abstract: |
           Sequential and concurrent models of classical or quantum computation, such as Turing machines and circuits, describe computation as state changes over time. However, models like the Lambda calculus use higher-order operations on functions and are not immediately reducible to a sequence of state transformations. Physically, this corresponds to considering transformations of transformations, forming the basis of Higher-Order Quantum Theory. Here, quantum channels become inputs, enabling “second-order” gates that map channels to channels. This extends recursively, creating a hierarchy of higher-order maps (HOMs).  We provide an axiomatic framework, analogous to Kraus’ axiomatization of quantum operations, in which we characterize the admissible HOMs. Using the Choi isomorphism, we show that admissible maps lie within a cone of positive operators constrained by linear conditions [1].  Within the hierarchy, some HOMs can be realized as quantum circuits with open slots, while others (e.g., the quantum switch) exhibit an indefinite causal order. We prove a result linking a map’s functional description (i.e., its type) to its causal structure via no-signaling relations, based on the compositional structure of HOMs [2].  We then present a generalization of the higher-order framework to general physical theories, as described by the formalism of Operational Probabilistic Theories (OPTs) [3].  The starting point is to enrich an OPT with the notion of “contraction.” A contraction is a transformation resembling a categorical trace, which extends the compositional structure of the OPT beyond the sequential one and allows us to define the hierarchy of HOMs. We prove that a (convex) OPT admits a contraction if and only if it is endowed with the so-called Choi states and Choi effects.  Therefore, within our framework, the higher-order functionality of an OPT is not an extrinsic element but is fully determined by its native compositional structure.
 
