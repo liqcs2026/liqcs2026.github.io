@@ -393,9 +393,6 @@ document.addEventListener('DOMContentLoaded', () => {
 **Auditorium Jacques-Louis Lions (Building A, ground floor)**  
 **48 Rue Barrault, Paris**
 
-Information on access, accommodation and local logistics will be added later.
-
-
 ---
 
 ## Organisers and PC Chairs {#organisers}
