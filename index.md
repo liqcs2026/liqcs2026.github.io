@@ -124,10 +124,17 @@ recently published results, and perspectives on emerging research directions.
 
 ---
 
-<a href="https://sondages.inria.fr/index.php/825857" class="btn-reg">Register here</a>
-<span class="reg-note">
-  Registration is **free but mandatory** before <span class="reg-deadline">June 8, 2026</span>.
-</span>
+<div style="
+  margin: 20px 0;
+  padding: 12px 16px;
+  border: 1px solid #d73a49;
+  border-radius: 6px;
+  background-color: #ffeef0;
+  color: #86181d;
+  font-weight: 600;
+">
+  Registration is now closed.
+</div>
 
 ---
 
