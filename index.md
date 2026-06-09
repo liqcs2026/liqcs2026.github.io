@@ -13,7 +13,9 @@ subtitle: "1st International Workshop on Logic in Quantum Computer Science"
 **Inria de Paris, Auditorium Jacques-Louis Lions (Building A, ground floor)**  
 **48 Rue Barrault, Paris**
 
-[Venue information and directions](https://www.inria.fr/en/how-reach-us)
+<a href="https://www.inria.fr/en/how-reach-us" class="btn-venue">
+  Venue Information & Directions
+</a>
 
 <style>
 .navbar {
@@ -49,7 +51,7 @@ subtitle: "1st International Workshop on Logic in Quantum Computer Science"
   text-decoration: underline;
 }
 
-.btn-cfp {
+.btn-venue {
   display: inline-block;
   margin-top: 15px;
   padding: 8px 16px;
@@ -62,7 +64,7 @@ subtitle: "1st International Workshop on Logic in Quantum Computer Science"
   font-size: 0.9em;
 }
 
-.btn-cfp:hover {
+.btn-venue:hover {
   background-color: #0366d6;
   color: #ffffff;
   text-decoration: none;
@@ -124,12 +126,14 @@ semantics, algebraic and categorical methods, and formal verification.
 The workshop welcomes contributions presenting new ideas, work in progress,
 recently published results, and perspectives on emerging research directions.
 
-<a href="cfp.html" class="btn-cfp">View Call for Papers & Detailed Topics</a>
+<p>
+  <a href="cfp.html">Call for Papers & Detailed Topics</a>
+</p>
 
 ---
 
-<p style="color:#586069; font-size:0.9em;">
-  Registration is now closed.
+<p class="reg-note" style="font-size:1em;">
+  <strong>Registration is now closed.</strong>
 </p>
 
 ---
