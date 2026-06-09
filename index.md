@@ -400,6 +400,8 @@ document.addEventListener('DOMContentLoaded', () => {
 **Auditorium Jacques-Louis Lions (Building A, ground floor)**  
 **48 Rue Barrault, Paris**
 
+[How to reach Inria de Paris](https://www.inria.fr/en/how-reach-us)
+
 ---
 
 ## Organisers and PC Chairs {#organisers}
@@ -413,18 +415,18 @@ document.addEventListener('DOMContentLoaded', () => {
 
 ## Program Committee {#pc}
 
-- Kostia Chardonnet
-- Ugo Dal Lago
-- Kinnari Dave
-- Alejandro Díaz-Caro
-- Claudia Faggian
-- Emmanuel Hainry
-- Chris Heunen
-- Octavio Malherbe
-- Romain Péchoux
-- Peter Selinger
-- Sam Staton
-- Takeshi Tsukada
-- Benoît Valiron
-- Vladimir Zamdzhiev
+- [Kostia Chardonnet](https://kostiachardonnet.github.io/)
+- [Ugo Dal Lago](https://udallago.github.io/)
+- [Kinnari Dave](https://www.au.dk/en/kinnari.dave@cs.au.dk)
+- [Alejandro Díaz-Caro](https://members.loria.fr/ADiazCaro/)
+- [Claudia Faggian](https://www.irif.fr/~faggian/)
+- [Emmanuel Hainry](https://members.loria.fr/ehainry/)
+- [Chris Heunen](https://homepages.inf.ed.ac.uk/cheunen/)
+- [Octavio Malherbe](https://scholar.google.com/citations?user=1G5UzkMAAAAJ)
+- [Romain Péchoux](https://members.loria.fr/RPechoux/)
+- [Peter Selinger](https://www.mathstat.dal.ca/~selinger/)
+- [Sam Staton](https://www.cs.ox.ac.uk/people/samuel.staton/main.html)
+- [Takeshi Tsukada](https://takeshi-tsukada.github.io/)
+- [Benoît Valiron](https://takeshi-tsukada.github.io/)
+- [Vladimir Zamdzhiev](https://takeshi-tsukada.github.io/)
 
