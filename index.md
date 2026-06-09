@@ -6,9 +6,14 @@ subtitle: "1st International Workshop on Logic in Quantum Computer Science"
 
 <link rel="stylesheet" href="/assets/css/program.css?v=3">
 
-# LIQCS 2026  
-**Logic in Quantum Computer Science**  
-**17–19 June 2026 – Inria de Paris, 48 Rue Barrault**
+# LIQCS 2026
+**Logic in Quantum Computer Science**
+
+**17–19 June 2026**  
+**Inria de Paris, Auditorium Jacques-Louis Lions (Building A, ground floor)**  
+**48 Rue Barrault, Paris**
+
+[Venue information and directions](https://www.inria.fr/en/how-reach-us)
 
 <style>
 .navbar {
@@ -103,7 +108,6 @@ subtitle: "1st International Workshop on Logic in Quantum Computer Science"
   <a href="#about">About</a>
   <a href="#schedule">Overall Schedule</a>
   <a href="#talks">Detailed Program</a>
-  <a href="#venue">Venue</a>
   <a href="#organisers">Organisers</a>
   <a href="#pc">PC</a>
 </div>
@@ -124,17 +128,9 @@ recently published results, and perspectives on emerging research directions.
 
 ---
 
-<div style="
-  margin: 20px 0;
-  padding: 12px 16px;
-  border: 1px solid #d73a49;
-  border-radius: 6px;
-  background-color: #ffeef0;
-  color: #86181d;
-  font-weight: 600;
-">
+<p style="color:#586069; font-size:0.9em;">
   Registration is now closed.
-</div>
+</p>
 
 ---
 
@@ -391,16 +387,6 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 </script>
 
-
----
-
-## Venue {#venue}
-
-**Inria de Paris**  
-**Auditorium Jacques-Louis Lions (Building A, ground floor)**  
-**48 Rue Barrault, Paris**
-
-[How to reach Inria de Paris](https://www.inria.fr/en/how-reach-us)
 
 ---
 
