@@ -417,6 +417,6 @@ document.addEventListener('DOMContentLoaded', () => {
 - [Peter Selinger](https://www.mathstat.dal.ca/~selinger/)
 - [Sam Staton](https://www.cs.ox.ac.uk/people/samuel.staton/main.html)
 - [Takeshi Tsukada](https://takeshi-tsukada.github.io/)
-- [Benoît Valiron](https://takeshi-tsukada.github.io/)
-- [Vladimir Zamdzhiev](https://takeshi-tsukada.github.io/)
+- [Benoît Valiron](https://www.monoidal.net/)
+- [Vladimir Zamdzhiev](https://zamdzhiev.github.io/)
 
