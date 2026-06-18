@@ -126,6 +126,7 @@ subtitle: "1st International Workshop on Logic in Quantum Computer Science"
 
 <div class="top-nav">
   <a href="#about">About</a>
+  <a href="#group-photo">Group Photo</a>
   <a href="#schedule">Overall Schedule</a>
   <a href="#talks">Detailed Program</a>
   <a href="#support">Support</a>
@@ -151,9 +152,9 @@ recently published results, and perspectives on emerging research directions.
 
 ---
 
-<p class="reg-note" style="font-size:1em;">
-  <strong>Registration is now closed.</strong>
-</p>
+### Group Photo {#group-photo}
+
+[![LIQCS 2026 Group Photo](GF.jpeg)](GF.jpeg)
 
 ---
 
@@ -210,6 +211,10 @@ recently published results, and perspectives on emerging research directions.
 .lunch { background: #fce5cd; }
 .meeting { background: #d0e0e3; }
 
+img {
+  max-width: 100%;
+  height: auto;
+}
 
 </style>
 
