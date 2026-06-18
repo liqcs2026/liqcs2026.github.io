@@ -423,7 +423,7 @@ document.addEventListener('DOMContentLoaded', () => {
 <img src="EPiQ-HQI.png" alt="EPiQ - HQI">
 </a>
 </div>
-<div>
+<div style="text-align: center;">
 <p style="margin-bottom:0.5em; font-size:90%;">
 Hosted by the <strong>Inria de Paris</strong>
 </p>
