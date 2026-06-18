@@ -22,14 +22,15 @@ subtitle: "1st International Workshop on Logic in Quantum Computer Science"
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 10px;
+  padding: 20px 10px; 
 }
 
 .logo img {
   display: block;
-  max-width: 250px; 
+  max-width: 100%; 
+  width: 800px;   
   height: auto;
-  transition: opacity 0.2s;
+  margin: 0 auto;
 }
 
 .logo:hover img {
@@ -127,6 +128,7 @@ subtitle: "1st International Workshop on Logic in Quantum Computer Science"
   <a href="#about">About</a>
   <a href="#schedule">Overall Schedule</a>
   <a href="#talks">Detailed Program</a>
+  <a href="#support">Support</a>
   <a href="#organisers">Organisers</a>
   <a href="#pc">PC</a>
 </div>
@@ -410,7 +412,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
 ---
-## With the support of
+## With the support of {#support}
 <div class="logo-wrapper">
   <a class="logo" href="https://www.info.gouv.fr/actualite/france-2030-strategie-quantique-lancement-d-une-plateforme-nationale-de-calcul-quantique" target="_blank" rel="noopener">
     <img src="EPiQ-HQI.png" alt="EPiQ - HQI">

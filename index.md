@@ -18,6 +18,23 @@ subtitle: "1st International Workshop on Logic in Quantum Computer Science"
 </a>
 
 <style>
+.logo-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.logo img {
+  display: block;
+  max-width: 250px; 
+  height: auto;
+  transition: opacity 0.2s;
+}
+
+.logo:hover img {
+  opacity: 0.8; 
+}
 .navbar {
   display: none;
 }
@@ -390,6 +407,15 @@ document.addEventListener('DOMContentLoaded', () => {
 
 });
 </script>
+
+
+---
+## With the support of
+<div class="logo-wrapper">
+  <a class="logo" href="https://www.info.gouv.fr/actualite/france-2030-strategie-quantique-lancement-d-une-plateforme-nationale-de-calcul-quantique" target="_blank" rel="noopener">
+    <img src="EPiQ-HQI.png" alt="EPiQ - HQI">
+  </a>
+</div>
 
 
 ---
