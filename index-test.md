@@ -422,7 +422,8 @@ document.addEventListener('DOMContentLoaded', () => {
 <a class="logo" href="https://www.info.gouv.fr/actualite/france-2030-strategie-quantique-lancement-d-une-plateforme-nationale-de-calcul-quantique" target="_blank" rel="noopener">
 <img src="EPiQ-HQI.png" alt="EPiQ - HQI">
 </a>
-<br>
+</div>
+<div>
 <p style="margin-bottom:0.5em; font-size:90%;">
 Hosted by the <strong>Inria de Paris</strong>
 </p>
