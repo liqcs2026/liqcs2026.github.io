@@ -419,10 +419,17 @@ document.addEventListener('DOMContentLoaded', () => {
 ---
 ## With the support of {#support}
 <div class="logo-wrapper">
-  <a class="logo" href="https://www.info.gouv.fr/actualite/france-2030-strategie-quantique-lancement-d-une-plateforme-nationale-de-calcul-quantique" target="_blank" rel="noopener">
-    <img src="EPiQ-HQI.png" alt="EPiQ - HQI">
-  </a>
+<a class="logo" href="https://www.info.gouv.fr/actualite/france-2030-strategie-quantique-lancement-d-une-plateforme-nationale-de-calcul-quantique" target="_blank" rel="noopener">
+<img src="EPiQ-HQI.png" alt="EPiQ - HQI">
+</a>
 </div>
+<div style="text-align: center;">
+<p style="margin-bottom:0.5em; font-size:90%;">
+Hosted by the <strong>Inria de Paris</strong>
+</p>
+<img src="inria-logo.jpg" alt="Inria logo" style="width:140px; height:auto;">
+</div>
+
 
 
 ---
